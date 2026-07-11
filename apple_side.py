@@ -24,8 +24,15 @@ def connect():
         username=Config.APPLE_ID,
         password=Config.APPLE_APP_PASSWORD,
     )
-    principal = client.principal()
-    calendars = principal.calendars()
+    try:
+        principal = client.principal()
+        calendars = principal.calendars()
+    except Exception as e:
+        raise SystemExit(
+            "Could not sign in to iCloud CalDAV. Check that APPLE_ID is your full iCloud "
+            "email and APPLE_APP_PASSWORD is an APP-SPECIFIC password (looks like "
+            "abcd-efgh-ijkl-mnop), not your normal Apple password. Details: " + str(e)
+        )
     if not calendars:
         raise SystemExit("No CalDAV calendars found on this iCloud account.")
     if Config.APPLE_CALENDAR_NAME:

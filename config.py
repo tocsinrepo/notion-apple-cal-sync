@@ -1,9 +1,13 @@
 """Configuration, read from environment variables.
 
-Every value has a safe default except the four required secrets. Empty strings
+Every value has a safe default except the required secrets. Empty strings
 coming from GitHub Actions (unset `vars`) fall back to the defaults.
 """
 import os
+
+# Jon's Life OS -> Tasks database. Defaulted so it works even if the
+# NOTION_DATABASE_ID secret is not set (the setup guide says "already filled in").
+DEFAULT_DATABASE_ID = "d3406f60b6654bb48ff38b90cbea34b7"
 
 
 def _s(name, default=""):
@@ -29,7 +33,7 @@ def _b(name, default=False):
 class Config:
     # --- Notion ---
     NOTION_TOKEN = _s("NOTION_TOKEN")
-    NOTION_DATABASE_ID = _s("NOTION_DATABASE_ID")
+    NOTION_DATABASE_ID = _s("NOTION_DATABASE_ID", DEFAULT_DATABASE_ID)
     NOTION_TITLE_PROP = _s("NOTION_TITLE_PROP", "Name")
     NOTION_DATE_PROP = _s("NOTION_DATE_PROP", "Due")
     NOTION_VERSION = _s("NOTION_VERSION", "2022-06-28")
@@ -50,7 +54,12 @@ class Config:
 
     @classmethod
     def validate(cls):
-        required = ("NOTION_TOKEN", "NOTION_DATABASE_ID", "APPLE_ID", "APPLE_APP_PASSWORD")
+        # NOTION_DATABASE_ID has a default, so only these three are truly required.
+        required = ("NOTION_TOKEN", "APPLE_ID", "APPLE_APP_PASSWORD")
         missing = [n for n in required if not getattr(cls, n)]
         if missing:
-            raise SystemExit("Missing required env vars: " + ", ".join(missing))
+            raise SystemExit(
+                "STOP: these GitHub secrets are missing or empty: "
+                + ", ".join(missing)
+                + ". Add them under Settings -> Secrets and variables -> Actions."
+            )

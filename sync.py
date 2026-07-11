@@ -48,6 +48,16 @@ def _newer(a, b):
 
 def main():
     Config.validate()
+    # Startup diagnostic — shows which values arrived, without leaking their contents.
+    present = {
+        "NOTION_TOKEN": bool(Config.NOTION_TOKEN),
+        "NOTION_DATABASE_ID": bool(Config.NOTION_DATABASE_ID),
+        "APPLE_ID": bool(Config.APPLE_ID),
+        "APPLE_APP_PASSWORD": bool(Config.APPLE_APP_PASSWORD),
+    }
+    log("inputs present -> " + ", ".join(f"{k}={'yes' if v else 'NO'}" for k, v in present.items()))
+    log(f"apple calendar target: {Config.APPLE_CALENDAR_NAME or '(first writable)'}  tz={Config.APPLE_TZ}")
+
     dry = Config.DRY_RUN
     state = st.load_state(Config.STATE_FILE)
     links = state.get("links", [])

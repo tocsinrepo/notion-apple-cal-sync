@@ -62,6 +62,16 @@ def fetch_pages():
         if cursor:
             payload["start_cursor"] = cursor
         r = requests.post(url, headers=_headers(), json=payload, timeout=30)
+        if r.status_code == 401:
+            raise SystemExit("Notion rejected the token (401). Re-check the NOTION_TOKEN secret.")
+        if r.status_code == 404:
+            raise SystemExit(
+                "Notion can't find the database (404). Two fixes: (1) open your Tasks "
+                "database -> ••• -> Connections -> add your integration; (2) make sure "
+                "NOTION_DATABASE_ID is d3406f60b6654bb48ff38b90cbea34b7."
+            )
+        if r.status_code >= 400:
+            raise SystemExit(f"Notion error {r.status_code}: {r.text[:300]}")
         r.raise_for_status()
         data = r.json()
         for pg in data.get("results", []):
