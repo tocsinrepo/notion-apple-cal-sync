@@ -5,9 +5,11 @@ coming from GitHub Actions (unset `vars`) fall back to the defaults.
 """
 import os
 
-# Jon's Life OS -> Tasks database. Defaulted so it works even if the
-# NOTION_DATABASE_ID secret is not set (the setup guide says "already filled in").
+# Jon's Life OS -> Tasks database, and its data source (collection).
+# Both are defaulted so the sync works without extra secrets. Notion's newer API
+# queries the DATA SOURCE, not the database, so we keep both.
 DEFAULT_DATABASE_ID = "d3406f60b6654bb48ff38b90cbea34b7"
+DEFAULT_DATA_SOURCE_ID = "4f410f8d-6133-49dd-a7d8-07c81a5b7c1e"
 
 
 def _s(name, default=""):
@@ -34,9 +36,10 @@ class Config:
     # --- Notion ---
     NOTION_TOKEN = _s("NOTION_TOKEN")
     NOTION_DATABASE_ID = _s("NOTION_DATABASE_ID", DEFAULT_DATABASE_ID)
+    NOTION_DATA_SOURCE_ID = _s("NOTION_DATA_SOURCE_ID", DEFAULT_DATA_SOURCE_ID)
     NOTION_TITLE_PROP = _s("NOTION_TITLE_PROP", "Name")
     NOTION_DATE_PROP = _s("NOTION_DATE_PROP", "Due")
-    NOTION_VERSION = _s("NOTION_VERSION", "2022-06-28")
+    NOTION_VERSION = _s("NOTION_VERSION", "2025-09-03")  # data-source-aware API
 
     # --- Apple / iCloud CalDAV ---
     APPLE_ID = _s("APPLE_ID")
@@ -54,7 +57,6 @@ class Config:
 
     @classmethod
     def validate(cls):
-        # NOTION_DATABASE_ID has a default, so only these three are truly required.
         required = ("NOTION_TOKEN", "APPLE_ID", "APPLE_APP_PASSWORD")
         missing = [n for n in required if not getattr(cls, n)]
         if missing:

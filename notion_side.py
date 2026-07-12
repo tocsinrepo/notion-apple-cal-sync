@@ -1,6 +1,9 @@
 """Notion side of the sync: read dated pages, create/update/archive pages.
 
-Uses the plain REST API via `requests` so there is no heavy SDK dependency.
+Uses the plain REST API via `requests`. Notion's 2025 API queries a DATA SOURCE
+(collection) rather than the database container, so we query the data source
+first and fall back to the legacy /databases/{id}/query endpoint.
+
 A normalized "item" dict looks like:
     {source, page_id, title, start, end, all_day, last_mod, archived}
 where `start`/`end` are ISO strings ("YYYY-MM-DD" for all-day).
@@ -12,6 +15,10 @@ from config import Config
 API = "https://api.notion.com/v1"
 
 
+class _NotFound(Exception):
+    """404 from an endpoint — lets us try a fallback endpoint."""
+
+
 def _headers():
     return {
         "Authorization": f"Bearer {Config.NOTION_TOKEN}",
@@ -21,15 +28,13 @@ def _headers():
 
 
 def whoami():
-    """Return a human-readable identity for the current token (which integration
-    / workspace it belongs to). Helps diagnose 'wrong token' problems."""
+    """Identity of the current token (which integration / workspace). Diagnostic."""
     r = requests.get(f"{API}/users/me", headers=_headers(), timeout=30)
     if r.status_code >= 400:
         return f"(users/me error {r.status_code}: {r.text[:160]})"
     d = r.json()
     name = d.get("name", "?")
-    bot = d.get("bot") or {}
-    ws = bot.get("workspace_name", "?")
+    ws = (d.get("bot") or {}).get("workspace_name", "?")
     return f"bot='{name}'  workspace='{ws}'  type={d.get('type','?')}"
 
 
@@ -62,10 +67,10 @@ def _page_to_item(pg):
     }
 
 
-def fetch_pages():
-    """Return all non-archived pages that have a date in the configured property."""
+def _query(path):
+    """Run a paginated query against a full endpoint path; raise _NotFound on 404."""
     items = []
-    url = f"{API}/databases/{Config.NOTION_DATABASE_ID}/query"
+    url = f"{API}{path}"
     payload = {
         "page_size": 100,
         "filter": {"property": Config.NOTION_DATE_PROP, "date": {"is_not_empty": True}},
@@ -78,14 +83,9 @@ def fetch_pages():
         if r.status_code == 401:
             raise SystemExit("Notion rejected the token (401). Re-check the NOTION_TOKEN secret.")
         if r.status_code == 404:
-            raise SystemExit(
-                "Notion can't find the database (404). Two fixes: (1) open your Tasks "
-                "database -> ••• -> Connections -> add your integration; (2) make sure "
-                "NOTION_DATABASE_ID is d3406f60b6654bb48ff38b90cbea34b7."
-            )
+            raise _NotFound()
         if r.status_code >= 400:
             raise SystemExit(f"Notion error {r.status_code}: {r.text[:300]}")
-        r.raise_for_status()
         data = r.json()
         for pg in data.get("results", []):
             if pg.get("archived"):
@@ -98,6 +98,25 @@ def fetch_pages():
         else:
             break
     return items
+
+
+def fetch_pages():
+    """Query the data source first (modern API), then the database (legacy)."""
+    attempts = []
+    if Config.NOTION_DATA_SOURCE_ID:
+        attempts.append(("data source", f"/data_sources/{Config.NOTION_DATA_SOURCE_ID}/query"))
+    attempts.append(("database", f"/databases/{Config.NOTION_DATABASE_ID}/query"))
+    for label, path in attempts:
+        try:
+            return _query(path)
+        except _NotFound:
+            print(f"[notion] {label} endpoint returned 404, trying next…", flush=True)
+    raise SystemExit(
+        "Notion returned 404 from BOTH the data source and database endpoints. "
+        "Open your Tasks database -> ••• -> Connections and confirm 'Apple Cal Sync' "
+        "is added with Read content. IDs used: "
+        f"data_source={Config.NOTION_DATA_SOURCE_ID}, database={Config.NOTION_DATABASE_ID}."
+    )
 
 
 def _date_payload(item):
@@ -114,8 +133,14 @@ def _props(item):
     }
 
 
+def _parent():
+    if Config.NOTION_DATA_SOURCE_ID:
+        return {"type": "data_source_id", "data_source_id": Config.NOTION_DATA_SOURCE_ID}
+    return {"type": "database_id", "database_id": Config.NOTION_DATABASE_ID}
+
+
 def create_page(item):
-    body = {"parent": {"database_id": Config.NOTION_DATABASE_ID}, "properties": _props(item)}
+    body = {"parent": _parent(), "properties": _props(item)}
     r = requests.post(f"{API}/pages", headers=_headers(), json=body, timeout=30)
     r.raise_for_status()
     return r.json()["id"]
