@@ -1,3 +1,376 @@
 {
-  "links": []
+  "last_run": "2026-07-12T02:05:09.238979+00:00",
+  "links": [
+    {
+      "event_canon": "Set up content management blog (personal)|2026-07-12T10:00:00.000-04:00||T",
+      "event_uid": "dry-39a357e3-2952-810e-ac7a-cb3b601e9976",
+      "notion_canon": "Set up content management blog (personal)|2026-07-12T10:00:00.000-04:00||T",
+      "notion_id": "39a357e3-2952-810e-ac7a-cb3b601e9976",
+      "title": "Set up content management blog (personal)"
+    },
+    {
+      "event_canon": "Resume building|2026-07-11T14:00:00.000-04:00||T",
+      "event_uid": "dry-39a357e3-2952-812f-aac7-c94307bb3ed4",
+      "notion_canon": "Resume building|2026-07-11T14:00:00.000-04:00||T",
+      "notion_id": "39a357e3-2952-812f-aac7-c94307bb3ed4",
+      "title": "Resume building"
+    },
+    {
+      "event_canon": "Set up Arnold \u2014 cybersecurity agent|2026-07-11T16:00:00.000-04:00||T",
+      "event_uid": "dry-39a357e3-2952-8143-a916-e68149008034",
+      "notion_canon": "Set up Arnold \u2014 cybersecurity agent|2026-07-11T16:00:00.000-04:00||T",
+      "notion_id": "39a357e3-2952-8143-a916-e68149008034",
+      "title": "Set up Arnold \u2014 cybersecurity agent"
+    },
+    {
+      "event_canon": "Dashboard for Cornerstones|2026-07-11T15:00:00.000-04:00||T",
+      "event_uid": "dry-39a357e3-2952-818c-b357-e484df869a63",
+      "notion_canon": "Dashboard for Cornerstones|2026-07-11T15:00:00.000-04:00||T",
+      "notion_id": "39a357e3-2952-818c-b357-e484df869a63",
+      "title": "Dashboard for Cornerstones"
+    },
+    {
+      "event_canon": "Set up Ivey \u2014 Polymarket agent|2026-07-11T17:00:00.000-04:00||T",
+      "event_uid": "dry-39a357e3-2952-81db-aa28-ca5feb631e42",
+      "notion_canon": "Set up Ivey \u2014 Polymarket agent|2026-07-11T17:00:00.000-04:00||T",
+      "notion_id": "39a357e3-2952-81db-aa28-ca5feb631e42",
+      "title": "Set up Ivey \u2014 Polymarket agent"
+    },
+    {
+      "event_canon": "GitHub work \u2014 highest-star repos|2026-07-11T18:00:00.000-04:00||T",
+      "event_uid": "dry-39a357e3-2952-81de-a444-c856c969c3ad",
+      "notion_canon": "GitHub work \u2014 highest-star repos|2026-07-11T18:00:00.000-04:00||T",
+      "notion_id": "39a357e3-2952-81de-a444-c856c969c3ad",
+      "title": "GitHub work \u2014 highest-star repos"
+    },
+    {
+      "event_canon": "Do Agent Arnold|2026-07-11||AD",
+      "event_uid": "dry-39a357e3-2952-804e-9a98-fdc767f5830c",
+      "notion_canon": "Do Agent Arnold|2026-07-11||AD",
+      "notion_id": "39a357e3-2952-804e-9a98-fdc767f5830c",
+      "title": "Do Agent Arnold"
+    },
+    {
+      "event_canon": "Do timesheet|2026-07-11T09:00:00.000-04:00||T",
+      "event_uid": "dry-399357e3-2952-8142-93ae-d5c939c2a6ad",
+      "notion_canon": "Do timesheet|2026-07-11T09:00:00.000-04:00||T",
+      "notion_id": "399357e3-2952-8142-93ae-d5c939c2a6ad",
+      "title": "Do timesheet"
+    },
+    {
+      "event_canon": "Appointment \u2014 Ms. Tayne call (SBA EIDL liability)|2026-07-10T11:30:00.000-04:00||T",
+      "event_uid": "dry-399357e3-2952-8154-82b1-cc640f060bbd",
+      "notion_canon": "Appointment \u2014 Ms. Tayne call (SBA EIDL liability)|2026-07-10T11:30:00.000-04:00||T",
+      "notion_id": "399357e3-2952-8154-82b1-cc640f060bbd",
+      "title": "Appointment \u2014 Ms. Tayne call (SBA EIDL liability)"
+    },
+    {
+      "event_canon": "For Kate - Enter WC amorht but check recon|2026-07-10||AD",
+      "event_uid": "dry-398357e3-2952-8038-82e2-f11998005ab5",
+      "notion_canon": "For Kate - Enter WC amorht but check recon|2026-07-10||AD",
+      "notion_id": "398357e3-2952-8038-82e2-f11998005ab5",
+      "title": "For Kate - Enter WC amorht but check recon"
+    },
+    {
+      "event_canon": "For Kate - prepare Prepaid Report for 6/30|2026-07-10||AD",
+      "event_uid": "dry-398357e3-2952-8006-972a-ecdc47d9e2db",
+      "notion_canon": "For Kate - prepare Prepaid Report for 6/30|2026-07-10||AD",
+      "notion_id": "398357e3-2952-8006-972a-ecdc47d9e2db",
+      "title": "For Kate - prepare Prepaid Report for 6/30"
+    },
+    {
+      "event_canon": "Order Croissants|2026-07-09||AD",
+      "event_uid": "dry-398357e3-2952-8034-99cc-f0905aa13e64",
+      "notion_canon": "Order Croissants|2026-07-09||AD",
+      "notion_id": "398357e3-2952-8034-99cc-f0905aa13e64",
+      "title": "Order Croissants"
+    },
+    {
+      "event_canon": "Pay Ally for August|2026-07-10||AD",
+      "event_uid": "dry-398357e3-2952-80f8-948e-c5a70a71891f",
+      "notion_canon": "Pay Ally for August|2026-07-10||AD",
+      "notion_id": "398357e3-2952-80f8-948e-c5a70a71891f",
+      "title": "Pay Ally for August"
+    },
+    {
+      "event_canon": "Pay Ally|2026-07-09||AD",
+      "event_uid": "dry-398357e3-2952-80c0-9e9e-ef3b3f4dbeb5",
+      "notion_canon": "Pay Ally|2026-07-09||AD",
+      "notion_id": "398357e3-2952-80c0-9e9e-ef3b3f4dbeb5",
+      "title": "Pay Ally"
+    },
+    {
+      "event_canon": "Review United Folder for any June Cash|2026-07-09||AD",
+      "event_uid": "dry-398357e3-2952-8029-9a2a-fd814c70b604",
+      "notion_canon": "Review United Folder for any June Cash|2026-07-09||AD",
+      "notion_id": "398357e3-2952-8029-9a2a-fd814c70b604",
+      "title": "Review United Folder for any June Cash"
+    },
+    {
+      "event_canon": "Help Sangeeta with Fusion|2026-07-07||AD",
+      "event_uid": "dry-396357e3-2952-80ae-a27d-c558518a4dbc",
+      "notion_canon": "Help Sangeeta with Fusion|2026-07-07||AD",
+      "notion_id": "396357e3-2952-80ae-a27d-c558518a4dbc",
+      "title": "Help Sangeeta with Fusion"
+    },
+    {
+      "event_canon": "Decide Pickleball|2026-07-06T13:50:00.000-04:00||T",
+      "event_uid": "dry-395357e3-2952-804b-8017-d5210219bda2",
+      "notion_canon": "Decide Pickleball|2026-07-06T13:50:00.000-04:00||T",
+      "notion_id": "395357e3-2952-804b-8017-d5210219bda2",
+      "title": "Decide Pickleball"
+    },
+    {
+      "event_canon": "Usage|2026-07-06T15:00:00.000-04:00||T",
+      "event_uid": "dry-392357e3-2952-80e1-83f7-ea40a34c340e",
+      "notion_canon": "Usage|2026-07-06T15:00:00.000-04:00||T",
+      "notion_id": "392357e3-2952-80e1-83f7-ea40a34c340e",
+      "title": "Usage"
+    },
+    {
+      "event_canon": "Eala Swiatek|2026-07-04T08:30:00.000-04:00|2026-07-04T09:45:00.000-04:00|T",
+      "event_uid": "dry-392357e3-2952-80a1-8a46-dae9c57f852c",
+      "notion_canon": "Eala Swiatek|2026-07-04T08:30:00.000-04:00|2026-07-04T09:45:00.000-04:00|T",
+      "notion_id": "392357e3-2952-80a1-8a46-dae9c57f852c",
+      "title": "Eala Swiatek"
+    },
+    {
+      "event_canon": "Jon on Vacation|2026-07-06||AD",
+      "event_uid": "dry-392357e3-2952-803d-9e67-cf66f5757783",
+      "notion_canon": "Jon on Vacation|2026-07-06||AD",
+      "notion_id": "392357e3-2952-803d-9e67-cf66f5757783",
+      "title": "Jon on Vacation"
+    },
+    {
+      "event_canon": "Pay Sister for lunch or for Ryan?|2026-07-03||AD",
+      "event_uid": "dry-392357e3-2952-80b1-a468-c444e2021d3a",
+      "notion_canon": "Pay Sister for lunch or for Ryan?|2026-07-03||AD",
+      "notion_id": "392357e3-2952-80b1-a468-c444e2021d3a",
+      "title": "Pay Sister for lunch or for Ryan? "
+    },
+    {
+      "event_canon": "Call Tayne|2026-07-09||AD",
+      "event_uid": "dry-392357e3-2952-807c-988e-c74cf9c72808",
+      "notion_canon": "Call Tayne|2026-07-09||AD",
+      "notion_id": "392357e3-2952-807c-988e-c74cf9c72808",
+      "title": "Call Tayne"
+    },
+    {
+      "event_canon": "Pay Tayne|2026-07-03||AD",
+      "event_uid": "dry-392357e3-2952-8053-8d5a-fe677a60bcdf",
+      "notion_canon": "Pay Tayne|2026-07-03||AD",
+      "notion_id": "392357e3-2952-8053-8d5a-fe677a60bcdf",
+      "title": "Pay Tayne"
+    },
+    {
+      "event_canon": "Burn Weavy + CapCut credits before they expire|2026-07-23||AD",
+      "event_uid": "dry-392357e3-2952-8189-a43b-f22e8a17ddc6",
+      "notion_canon": "Burn Weavy + CapCut credits before they expire|2026-07-23||AD",
+      "notion_id": "392357e3-2952-8189-a43b-f22e8a17ddc6",
+      "title": "Burn Weavy + CapCut credits before they expire"
+    },
+    {
+      "event_canon": "Chart 5 year rev and expenses - shannon excom - reflects through May|2026-07-03||AD",
+      "event_uid": "dry-391357e3-2952-8077-bbf3-cd58164ec9cd",
+      "notion_canon": "Chart 5 year rev and expenses - shannon excom - reflects through May|2026-07-03||AD",
+      "notion_id": "391357e3-2952-8077-bbf3-cd58164ec9cd",
+      "title": "Chart 5 year rev and expenses - shannon excom - reflects through May"
+    },
+    {
+      "event_canon": "Check RECON for Sentara|2026-07-01||AD",
+      "event_uid": "dry-390357e3-2952-808f-bddf-fe5adee47fb5",
+      "notion_canon": "Check RECON for Sentara|2026-07-01||AD",
+      "notion_id": "390357e3-2952-808f-bddf-fe5adee47fb5",
+      "title": "Check RECON for Sentara"
+    },
+    {
+      "event_canon": "Check TD Bank|2026-06-29||AD",
+      "event_uid": "dry-38f357e3-2952-8008-8091-de0c7452ed5b",
+      "notion_canon": "Check TD Bank|2026-06-29||AD",
+      "notion_id": "38f357e3-2952-8008-8091-de0c7452ed5b",
+      "title": "Check TD Bank "
+    },
+    {
+      "event_canon": "Transfer Venmo|2026-06-29||AD",
+      "event_uid": "dry-38f357e3-2952-8022-89af-f9f0e08cf0c4",
+      "notion_canon": "Transfer Venmo|2026-06-29||AD",
+      "notion_id": "38f357e3-2952-8022-89af-f9f0e08cf0c4",
+      "title": "Transfer Venmo "
+    },
+    {
+      "event_canon": "Transfer for Reuben?|2026-07-03||AD",
+      "event_uid": "dry-38f357e3-2952-8056-a2b4-e4d36220c7ee",
+      "notion_canon": "Transfer for Reuben?|2026-07-03||AD",
+      "notion_id": "38f357e3-2952-8056-a2b4-e4d36220c7ee",
+      "title": "Transfer for Reuben? "
+    },
+    {
+      "event_canon": "Michelle's gift?|2026-06-29||AD",
+      "event_uid": "dry-38f357e3-2952-80bf-bb75-cd0824e761ca",
+      "notion_canon": "Michelle's gift?|2026-06-29||AD",
+      "notion_id": "38f357e3-2952-80bf-bb75-cd0824e761ca",
+      "title": "Michelle's gift? "
+    },
+    {
+      "event_canon": "Gifts for twins?|2026-06-30||AD",
+      "event_uid": "dry-38f357e3-2952-803c-9acb-ce6c2cc61adb",
+      "notion_canon": "Gifts for twins?|2026-06-30||AD",
+      "notion_id": "38f357e3-2952-803c-9acb-ce6c2cc61adb",
+      "title": "Gifts for twins? "
+    },
+    {
+      "event_canon": "Poly Market|2026-06-29||AD",
+      "event_uid": "dry-38f357e3-2952-8022-8e00-ebb4a38c81ee",
+      "notion_canon": "Poly Market|2026-06-29||AD",
+      "notion_id": "38f357e3-2952-8022-8e00-ebb4a38c81ee",
+      "title": "Poly Market "
+    },
+    {
+      "event_canon": "Inform Kate re Letters Updated|2026-07-01||AD",
+      "event_uid": "dry-38f357e3-2952-80b6-bc4a-cdfb26fc9d9c",
+      "notion_canon": "Inform Kate re Letters Updated|2026-07-01||AD",
+      "notion_id": "38f357e3-2952-80b6-bc4a-cdfb26fc9d9c",
+      "title": "Inform Kate re Letters Updated"
+    },
+    {
+      "event_canon": "Assist Sangeeta with back-up for Crescent|2026-06-29||AD",
+      "event_uid": "dry-38e357e3-2952-803f-9ec0-f028ed2ac928",
+      "notion_canon": "Assist Sangeeta with back-up for Crescent|2026-06-29||AD",
+      "notion_id": "38e357e3-2952-803f-9ec0-f028ed2ac928",
+      "title": "Assist Sangeeta with back-up for Crescent"
+    },
+    {
+      "event_canon": "Call Rotary|2026-06-29||AD",
+      "event_uid": "dry-38e357e3-2952-80c8-b51f-fa074172cab8",
+      "notion_canon": "Call Rotary|2026-06-29||AD",
+      "notion_id": "38e357e3-2952-80c8-b51f-fa074172cab8",
+      "title": "Call Rotary"
+    },
+    {
+      "event_canon": "Check when to renew passport|2026-07-01||AD",
+      "event_uid": "dry-38e357e3-2952-800b-8711-d6c31b01ebf9",
+      "notion_canon": "Check when to renew passport|2026-07-01||AD",
+      "notion_id": "38e357e3-2952-800b-8711-d6c31b01ebf9",
+      "title": "Check when to renew passport"
+    },
+    {
+      "event_canon": "Renew license|2026-07-01||AD",
+      "event_uid": "dry-38e357e3-2952-8031-acb7-c075748868a1",
+      "notion_canon": "Renew license|2026-07-01||AD",
+      "notion_id": "38e357e3-2952-8031-acb7-c075748868a1",
+      "title": "Renew license"
+    },
+    {
+      "event_canon": "Create an Auditor Agent|2026-06-29||AD",
+      "event_uid": "dry-38d357e3-2952-8056-b53c-f7acc7e0b07d",
+      "notion_canon": "Create an Auditor Agent|2026-06-29||AD",
+      "notion_id": "38d357e3-2952-8056-b53c-f7acc7e0b07d",
+      "title": "Create an Auditor Agent"
+    },
+    {
+      "event_canon": "Do Census Work|2026-06-28||AD",
+      "event_uid": "dry-38d357e3-2952-80d3-b2c6-d0e1b42ff60c",
+      "notion_canon": "Do Census Work|2026-06-28||AD",
+      "notion_id": "38d357e3-2952-80d3-b2c6-d0e1b42ff60c",
+      "title": "Do Census Work"
+    },
+    {
+      "event_canon": "Add Webclipper|2026-06-28||AD",
+      "event_uid": "dry-38d357e3-2952-80ff-88c9-e6628478c57b",
+      "notion_canon": "Add Webclipper|2026-06-28||AD",
+      "notion_id": "38d357e3-2952-80ff-88c9-e6628478c57b",
+      "title": "Add Webclipper"
+    },
+    {
+      "event_canon": "Pay NOVEC electric \u2014 $325.15 PAST DUE (orig. $158.29 never cleared)|2026-07-10||AD",
+      "event_uid": "dry-38c357e3-2952-815e-b1cc-deb0cf261d5a",
+      "notion_canon": "Pay NOVEC electric \u2014 $325.15 PAST DUE (orig. $158.29 never cleared)|2026-07-10||AD",
+      "notion_id": "38c357e3-2952-815e-b1cc-deb0cf261d5a",
+      "title": "Pay NOVEC electric \u2014 $325.15 PAST DUE (orig. $158.29 never cleared)"
+    },
+    {
+      "event_canon": "Pay Fairfax Water \u2014 $237.42, scheduled 7/10 (confirm it clears)|2026-07-10||AD",
+      "event_uid": "dry-38c357e3-2952-815f-89ce-d36821716c41",
+      "notion_canon": "Pay Fairfax Water \u2014 $237.42, scheduled 7/10 (confirm it clears)|2026-07-10||AD",
+      "notion_id": "38c357e3-2952-815f-89ce-d36821716c41",
+      "title": "Pay Fairfax Water \u2014 $237.42, scheduled 7/10 (confirm it clears)"
+    },
+    {
+      "event_canon": "Pay Washington Gas \u2014 $113.49, due 7/31 (autopay NOT enrolled)|2026-07-31||AD",
+      "event_uid": "dry-38c357e3-2952-815f-a65f-f535ea7942dd",
+      "notion_canon": "Pay Washington Gas \u2014 $113.49, due 7/31 (autopay NOT enrolled)|2026-07-31||AD",
+      "notion_id": "38c357e3-2952-815f-a65f-f535ea7942dd",
+      "title": "Pay Washington Gas \u2014 $113.49, due 7/31 (autopay NOT enrolled)"
+    },
+    {
+      "event_canon": "Lifetime \u2014 $159/mo, auto-billed on the 1st, current (no action needed)|2026-08-01||AD",
+      "event_uid": "dry-38c357e3-2952-8188-b9f1-cd335145a511",
+      "notion_canon": "Lifetime \u2014 $159/mo, auto-billed on the 1st, current (no action needed)|2026-08-01||AD",
+      "notion_id": "38c357e3-2952-8188-b9f1-cd335145a511",
+      "title": "Lifetime \u2014 $159/mo, auto-billed on the 1st, current (no action needed)"
+    },
+    {
+      "event_canon": "Pay Ally auto loan \u2014 $173.19 PAST DUE (2013 Ford C-Max; next $133.23 due Aug 6)|2026-07-10||AD",
+      "event_uid": "dry-38c357e3-2952-81b6-8524-e23d44a6ab1f",
+      "notion_canon": "Pay Ally auto loan \u2014 $173.19 PAST DUE (2013 Ford C-Max; next $133.23 due Aug 6)|2026-07-10||AD",
+      "notion_id": "38c357e3-2952-81b6-8524-e23d44a6ab1f",
+      "title": "Pay Ally auto loan \u2014 $173.19 PAST DUE (2013 Ford C-Max; next $133.23 due Aug 6)"
+    },
+    {
+      "event_canon": "Call M&T Mortgage|2026-06-29||AD",
+      "event_uid": "dry-38c357e3-2952-81dd-a500-ca8a2f4a5665",
+      "notion_canon": "Call M&T Mortgage|2026-06-29||AD",
+      "notion_id": "38c357e3-2952-81dd-a500-ca8a2f4a5665",
+      "title": "Call M&T Mortgage"
+    },
+    {
+      "event_canon": "Kate Prepaid Recon|2026-06-22T11:00:00-04:00|2026-06-22T12:00:00-04:00|T",
+      "event_uid": "CA79A88A-0AF3-4D0D-BFA1-9DF19F824DBA",
+      "notion_canon": "Kate Prepaid Recon|2026-06-22T11:00:00-04:00|2026-06-22T12:00:00-04:00|T",
+      "notion_id": "dry-CA79A88A-0AF3-4D0D-BFA1-9DF19F824DBA",
+      "title": "Kate Prepaid Recon"
+    },
+    {
+      "event_canon": "3. From Kate -Letter In Kind Rent and Gift Card\n4. From Kate - PR Cents SUTA Disparity|2026-06-22T11:00:00-04:00|2026-06-22T12:00:00-04:00|T",
+      "event_uid": "E3B5E0A0-1263-49AA-B6ED-750D29A07D3B",
+      "notion_canon": "3. From Kate -Letter In Kind Rent and Gift Card\n4. From Kate - PR Cents SUTA Disparity|2026-06-22T11:00:00-04:00|2026-06-22T12:00:00-04:00|T",
+      "notion_id": "dry-E3B5E0A0-1263-49AA-B6ED-750D29A07D3B",
+      "title": "3. From Kate -Letter In Kind Rent and Gift Card\n4. From Kate - PR Cents SUTA Disparity"
+    },
+    {
+      "event_canon": "Meeting with Kate to fix Santara Messi post fix Blasa Condori and CHC create JE for accrued due to other parties|2026-06-22T14:00:00-04:00|2026-06-22T15:00:00-04:00|T",
+      "event_uid": "E4C18A31-C688-491C-AD51-81A9758DC503",
+      "notion_canon": "Meeting with Kate to fix Santara Messi post fix Blasa Condori and CHC create JE for accrued due to other parties|2026-06-22T14:00:00-04:00|2026-06-22T15:00:00-04:00|T",
+      "notion_id": "dry-E4C18A31-C688-491C-AD51-81A9758DC503",
+      "title": "Meeting with Kate to fix Santara Messi post fix Blasa Condori and CHC create JE for accrued due to other parties "
+    },
+    {
+      "event_canon": "Mercury Bank issue|2026-06-22T16:30:00-04:00|2026-06-22T17:30:00-04:00|T",
+      "event_uid": "45F7994E-C32D-41D1-B370-05B45E8C3450",
+      "notion_canon": "Mercury Bank issue|2026-06-22T16:30:00-04:00|2026-06-22T17:30:00-04:00|T",
+      "notion_id": "dry-45F7994E-C32D-41D1-B370-05B45E8C3450",
+      "title": "Mercury Bank issue"
+    },
+    {
+      "event_canon": "Kate Insurance Report|2026-06-22T16:30:00-04:00|2026-06-22T17:30:00-04:00|T",
+      "event_uid": "931A2613-2BF4-48DC-9C6B-8E32A4D2F5C3",
+      "notion_canon": "Kate Insurance Report|2026-06-22T16:30:00-04:00|2026-06-22T17:30:00-04:00|T",
+      "notion_id": "dry-931A2613-2BF4-48DC-9C6B-8E32A4D2F5C3",
+      "title": "Kate Insurance Report"
+    },
+    {
+      "event_canon": "Census Work|2026-06-26T13:00:00-04:00|2026-06-26T14:00:00-04:00|T",
+      "event_uid": "929BA1C0-9E82-4909-AB89-C6A752751D79",
+      "notion_canon": "Census Work|2026-06-26T13:00:00-04:00|2026-06-26T14:00:00-04:00|T",
+      "notion_id": "dry-929BA1C0-9E82-4909-AB89-C6A752751D79",
+      "title": "Census Work"
+    },
+    {
+      "event_canon": "Govt Unearned|2026-06-26T14:00:00-04:00|2026-06-26T15:00:00-04:00|T",
+      "event_uid": "E2D44288-D9B8-4A43-8938-B069F50E19A6",
+      "notion_canon": "Govt Unearned|2026-06-26T14:00:00-04:00|2026-06-26T15:00:00-04:00|T",
+      "notion_id": "dry-E2D44288-D9B8-4A43-8938-B069F50E19A6",
+      "title": "Govt Unearned"
+    }
+  ]
 }
