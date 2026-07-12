@@ -57,6 +57,10 @@ def main():
     }
     log("inputs present -> " + ", ".join(f"{k}={'yes' if v else 'NO'}" for k, v in present.items()))
     log(f"apple calendar target: {Config.APPLE_CALENDAR_NAME or '(first writable)'}  tz={Config.APPLE_TZ}")
+    try:
+        log("notion token identity -> " + ns.whoami())
+    except Exception as e:
+        log("notion whoami failed:", e)
 
     dry = Config.DRY_RUN
     state = st.load_state(Config.STATE_FILE)

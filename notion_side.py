@@ -20,6 +20,19 @@ def _headers():
     }
 
 
+def whoami():
+    """Return a human-readable identity for the current token (which integration
+    / workspace it belongs to). Helps diagnose 'wrong token' problems."""
+    r = requests.get(f"{API}/users/me", headers=_headers(), timeout=30)
+    if r.status_code >= 400:
+        return f"(users/me error {r.status_code}: {r.text[:160]})"
+    d = r.json()
+    name = d.get("name", "?")
+    bot = d.get("bot") or {}
+    ws = bot.get("workspace_name", "?")
+    return f"bot='{name}'  workspace='{ws}'  type={d.get('type','?')}"
+
+
 def _read_title(props):
     for v in props.values():
         if v.get("type") == "title":
