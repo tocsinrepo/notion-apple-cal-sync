@@ -1,8 +1,10 @@
 name: Notion <-> Apple Calendar Sync
 
 on:
-  schedule:
-    - cron: "*/20 * * * *"   # every 20 minutes
+  # PAUSED 2026-07-21 while verifying the rewrite-loop fix.
+  # Re-enable by uncommenting the two lines below.
+  # schedule:
+  #   - cron: "*/20 * * * *"   # every 20 minutes
   workflow_dispatch:          # lets you run it manually from the Actions tab
 
 permissions:

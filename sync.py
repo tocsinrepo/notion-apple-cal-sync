@@ -18,6 +18,7 @@ Safety:
 import datetime as dt
 
 from dateutil import parser as dtparser
+from dateutil import tz
 
 import apple_side as ap
 import notion_side as ns
@@ -29,14 +30,42 @@ def log(*a):
     print("[sync]", *a, flush=True)
 
 
+def _utc(value):
+    """Parse an ISO timestamp into a UTC datetime. None if empty/unparseable."""
+    if not value:
+        return None
+    try:
+        d = dtparser.isoparse(str(value))
+    except (ValueError, TypeError):
+        return None
+    if d.tzinfo is None:
+        d = d.replace(tzinfo=tz.gettz(Config.APPLE_TZ))
+    return d.astimezone(dt.timezone.utc).replace(microsecond=0)
+
+
 def canon(item):
-    """A fingerprint used to detect changes between runs."""
-    return "|".join([
-        (item.get("title") or "").strip(),
-        item.get("start") or "",
-        item.get("end") or "",
-        "AD" if item.get("all_day") else "T",
-    ])
+    """Fingerprint used to detect REAL changes between runs.
+
+    Both sides are normalized so the same event yields the same string no
+    matter which system reported it:
+      * timed events -> absolute UTC instants (kills timezone/format drift)
+      * a missing end on a timed event -> start + 30 min, which is what we
+        actually write to the calendar, so "no end in Notion" matches the
+        real event that comes back from iCloud
+      * all-day events -> plain YYYY-MM-DD
+
+    Without this normalization the sync considered every event "changed" and
+    rewrote all of them on every run (runs grew from ~3s to 7+ minutes).
+    """
+    all_day = bool(item.get("all_day"))
+    title = (item.get("title") or "").strip()
+    if all_day:
+        start = str(item.get("start") or "")[:10]
+        end = str(item.get("end") or "")[:10]
+        return f"{title}|{start}|{end}|AD"
+    s = _utc(item.get("start"))
+    e = _utc(item.get("end")) or (s + dt.timedelta(minutes=30) if s else None)
+    return f"{title}|{s.isoformat() if s else ''}|{e.isoformat() if e else ''}|T"
 
 
 def _newer(a, b):
@@ -80,6 +109,7 @@ def main():
     new_links = []
     linked_pages = set()
     linked_uids = set()
+    writes = 0
 
     # 1) Reconcile existing links.
     for lk in links:
@@ -96,9 +126,11 @@ def main():
                 log("notion deleted -> delete apple:", lk.get("title"))
                 if not dry:
                     ap.delete_event(cal, uid)
+                writes += 1
                 continue
             log("notion missing (deletes off) -> recreate in notion:", a["title"])
             npid = pid if dry else ns.create_page(a)
+            writes += 1
             lk.update(notion_id=npid, notion_canon=canon(a), event_canon=canon(a))
             new_links.append(lk)
             linked_pages.add(npid)
@@ -110,9 +142,11 @@ def main():
                 log("apple deleted -> archive notion:", lk.get("title"))
                 if not dry:
                     ns.archive_page(pid)
+                writes += 1
                 continue
             log("apple missing (deletes off) -> recreate in apple:", n["title"])
             nuid = uid if dry else ap.create_event(cal, n)
+            writes += 1
             lk.update(event_uid=nuid, notion_canon=canon(n), event_canon=canon(n))
             new_links.append(lk)
             linked_pages.add(pid)
@@ -130,26 +164,30 @@ def main():
             log("update apple  <- notion:", n["title"])
             if not dry:
                 ap.update_event(cal, uid, n)
+            writes += 1
             lk["notion_canon"] = n_canon
-            lk["event_canon"] = canon(n)
+            lk["event_canon"] = n_canon
         elif a_changed and not n_changed:
             log("update notion <- apple:", a["title"])
             if not dry:
                 ns.update_page(pid, a)
-            lk["notion_canon"] = canon(a)
+            writes += 1
+            lk["notion_canon"] = a_canon
             lk["event_canon"] = a_canon
         elif n_changed and a_changed:
             if _newer(n.get("last_mod", ""), a.get("last_mod", "")):
                 log("conflict -> notion wins:", n["title"])
                 if not dry:
                     ap.update_event(cal, uid, n)
+                writes += 1
                 lk["notion_canon"] = n_canon
-                lk["event_canon"] = canon(n)
+                lk["event_canon"] = n_canon
             else:
                 log("conflict -> apple wins:", a["title"])
                 if not dry:
                     ns.update_page(pid, a)
-                lk["notion_canon"] = canon(a)
+                writes += 1
+                lk["notion_canon"] = a_canon
                 lk["event_canon"] = a_canon
 
         lk["title"] = n["title"]
@@ -161,6 +199,7 @@ def main():
             continue
         log("new notion -> create apple:", i["title"])
         uid = f"dry-{i['page_id']}" if dry else ap.create_event(cal, i)
+        writes += 1
         new_links.append({
             "notion_id": i["page_id"],
             "event_uid": uid,
@@ -176,6 +215,7 @@ def main():
             continue
         log("new apple  -> create notion:", i["title"])
         pid = f"dry-{i['uid']}" if dry else ns.create_page(i)
+        writes += 1
         new_links.append({
             "notion_id": pid,
             "event_uid": i["uid"],
@@ -187,7 +227,10 @@ def main():
     state["links"] = new_links
     state["last_run"] = dt.datetime.now(dt.timezone.utc).isoformat()
     st.save_state(Config.STATE_FILE, state)
-    log(f"done. total links: {len(new_links)}  (dry_run={dry}, allow_deletes={Config.ALLOW_DELETES})")
+    log(f"done. total links: {len(new_links)}  writes this run: {writes}  "
+        f"(dry_run={dry}, allow_deletes={Config.ALLOW_DELETES})")
+    if writes > 25:
+        log("WARNING: unusually high write count — possible rewrite loop. Investigate.")
 
 
 if __name__ == "__main__":
