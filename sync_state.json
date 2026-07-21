@@ -1,45 +1,45 @@
 {
-  "last_run": "2026-07-21T13:11:27.340101+00:00",
+  "last_run": "2026-07-21T15:25:06.637736+00:00",
   "links": [
     {
-      "event_canon": "Set up content management blog (personal)|2026-07-12T10:00:00+00:00|2026-07-12T10:30:00+00:00|T",
+      "event_canon": "Set up content management blog (personal)|2026-07-12T10:00:00.000+00:00|2026-07-12T10:30:00.000+00:00|T",
       "event_uid": "02a368a4-ec8b-4d7b-a8b6-5aaccc945991@notion-apple-cal-sync",
-      "notion_canon": "Set up content management blog (personal)|2026-07-12T10:00:00+00:00|2026-07-12T10:30:00+00:00|T",
+      "notion_canon": "Set up content management blog (personal)|2026-07-12T10:00:00.000+00:00|2026-07-12T10:30:00.000+00:00|T",
       "notion_id": "39a357e3-2952-810e-ac7a-cb3b601e9976",
       "title": "Set up content management blog (personal)"
     },
     {
-      "event_canon": "Resume building|2026-07-11T14:00:00+00:00|2026-07-11T14:30:00+00:00|T",
+      "event_canon": "Resume building|2026-07-11T14:00:00.000+00:00|2026-07-11T14:30:00.000+00:00|T",
       "event_uid": "29358f39-dae3-4b3b-b45a-1fa78671371b@notion-apple-cal-sync",
-      "notion_canon": "Resume building|2026-07-11T14:00:00+00:00|2026-07-11T14:30:00+00:00|T",
+      "notion_canon": "Resume building|2026-07-11T14:00:00.000+00:00|2026-07-11T14:30:00.000+00:00|T",
       "notion_id": "39a357e3-2952-812f-aac7-c94307bb3ed4",
       "title": "Resume building"
     },
     {
-      "event_canon": "Set up Arnold \u2014 cybersecurity agent|2026-07-11T16:00:00+00:00|2026-07-11T16:30:00+00:00|T",
+      "event_canon": "Set up Arnold \u2014 cybersecurity agent|2026-07-11T16:00:00.000+00:00|2026-07-11T16:30:00.000+00:00|T",
       "event_uid": "5754ccf0-3689-483e-a04d-b22f91e265c1@notion-apple-cal-sync",
-      "notion_canon": "Set up Arnold \u2014 cybersecurity agent|2026-07-11T16:00:00+00:00|2026-07-11T16:30:00+00:00|T",
+      "notion_canon": "Set up Arnold \u2014 cybersecurity agent|2026-07-11T16:00:00.000+00:00|2026-07-11T16:30:00.000+00:00|T",
       "notion_id": "39a357e3-2952-8143-a916-e68149008034",
       "title": "Set up Arnold \u2014 cybersecurity agent"
     },
     {
-      "event_canon": "Dashboard for Cornerstones|2026-07-11T15:00:00+00:00|2026-07-11T15:30:00+00:00|T",
+      "event_canon": "Dashboard for Cornerstones|2026-07-11T15:00:00.000+00:00|2026-07-11T15:30:00.000+00:00|T",
       "event_uid": "41eeff79-2405-4e9f-ba23-0faea5824626@notion-apple-cal-sync",
-      "notion_canon": "Dashboard for Cornerstones|2026-07-11T15:00:00+00:00|2026-07-11T15:30:00+00:00|T",
+      "notion_canon": "Dashboard for Cornerstones|2026-07-11T15:00:00.000+00:00|2026-07-11T15:30:00.000+00:00|T",
       "notion_id": "39a357e3-2952-818c-b357-e484df869a63",
       "title": "Dashboard for Cornerstones"
     },
     {
-      "event_canon": "Set up Ivey \u2014 Polymarket agent|2026-07-11T17:00:00+00:00|2026-07-11T17:30:00+00:00|T",
+      "event_canon": "Set up Ivey \u2014 Polymarket agent|2026-07-11T17:00:00.000+00:00|2026-07-11T17:30:00.000+00:00|T",
       "event_uid": "a371420c-669b-4959-a4db-eb1edc08cbbe@notion-apple-cal-sync",
-      "notion_canon": "Set up Ivey \u2014 Polymarket agent|2026-07-11T17:00:00+00:00|2026-07-11T17:30:00+00:00|T",
+      "notion_canon": "Set up Ivey \u2014 Polymarket agent|2026-07-11T17:00:00.000+00:00|2026-07-11T17:30:00.000+00:00|T",
       "notion_id": "39a357e3-2952-81db-aa28-ca5feb631e42",
       "title": "Set up Ivey \u2014 Polymarket agent"
     },
     {
-      "event_canon": "GitHub work \u2014 highest-star repos|2026-07-11T18:00:00+00:00|2026-07-11T18:30:00+00:00|T",
+      "event_canon": "GitHub work \u2014 highest-star repos|2026-07-11T18:00:00.000+00:00|2026-07-11T18:30:00.000+00:00|T",
       "event_uid": "26080b2f-c39e-4611-a127-4682a87dbef2@notion-apple-cal-sync",
-      "notion_canon": "GitHub work \u2014 highest-star repos|2026-07-11T18:00:00+00:00|2026-07-11T18:30:00+00:00|T",
+      "notion_canon": "GitHub work \u2014 highest-star repos|2026-07-11T18:00:00.000+00:00|2026-07-11T18:30:00.000+00:00|T",
       "notion_id": "39a357e3-2952-81de-a444-c856c969c3ad",
       "title": "GitHub work \u2014 highest-star repos"
     },
@@ -51,16 +51,16 @@
       "title": "Do Agent Arnold"
     },
     {
-      "event_canon": "Do timesheet|2026-07-11T09:00:00+00:00|2026-07-11T09:30:00+00:00|T",
+      "event_canon": "Do timesheet|2026-07-11T09:00:00.000+00:00|2026-07-11T09:30:00.000+00:00|T",
       "event_uid": "660baebe-b4f0-4215-951c-cf7daa6997e4@notion-apple-cal-sync",
-      "notion_canon": "Do timesheet|2026-07-11T09:00:00+00:00|2026-07-11T09:30:00+00:00|T",
+      "notion_canon": "Do timesheet|2026-07-11T09:00:00.000+00:00|2026-07-11T09:30:00.000+00:00|T",
       "notion_id": "399357e3-2952-8142-93ae-d5c939c2a6ad",
       "title": "Do timesheet"
     },
     {
-      "event_canon": "Appointment \u2014 Ms. Tayne call (SBA EIDL liability)|2026-07-10T11:30:00+00:00|2026-07-10T12:00:00+00:00|T",
+      "event_canon": "Appointment \u2014 Ms. Tayne call (SBA EIDL liability)|2026-07-10T11:30:00.000+00:00|2026-07-10T12:00:00.000+00:00|T",
       "event_uid": "eb26db4d-4bcf-4926-950d-4f16ff8d9a39@notion-apple-cal-sync",
-      "notion_canon": "Appointment \u2014 Ms. Tayne call (SBA EIDL liability)|2026-07-10T11:30:00+00:00|2026-07-10T12:00:00+00:00|T",
+      "notion_canon": "Appointment \u2014 Ms. Tayne call (SBA EIDL liability)|2026-07-10T11:30:00.000+00:00|2026-07-10T12:00:00.000+00:00|T",
       "notion_id": "399357e3-2952-8154-82b1-cc640f060bbd",
       "title": "Appointment \u2014 Ms. Tayne call (SBA EIDL liability)"
     },
@@ -114,23 +114,23 @@
       "title": "Help Sangeeta with Fusion"
     },
     {
-      "event_canon": "Decide Pickleball|2026-07-06T13:50:00+00:00|2026-07-06T14:20:00+00:00|T",
+      "event_canon": "Decide Pickleball|2026-07-06T13:50:00.000+00:00|2026-07-06T14:20:00.000+00:00|T",
       "event_uid": "9faad1ec-49ef-4663-a46e-5d405bcb9ff9@notion-apple-cal-sync",
-      "notion_canon": "Decide Pickleball|2026-07-06T13:50:00+00:00|2026-07-06T14:20:00+00:00|T",
+      "notion_canon": "Decide Pickleball|2026-07-06T13:50:00.000+00:00|2026-07-06T14:20:00.000+00:00|T",
       "notion_id": "395357e3-2952-804b-8017-d5210219bda2",
       "title": "Decide Pickleball"
     },
     {
-      "event_canon": "Usage|2026-07-06T15:00:00+00:00|2026-07-06T15:30:00+00:00|T",
+      "event_canon": "Usage|2026-07-06T15:00:00.000+00:00|2026-07-06T15:30:00.000+00:00|T",
       "event_uid": "e722147a-ee2a-4dc0-943d-ab60b64cf219@notion-apple-cal-sync",
-      "notion_canon": "Usage|2026-07-06T15:00:00+00:00|2026-07-06T15:30:00+00:00|T",
+      "notion_canon": "Usage|2026-07-06T15:00:00.000+00:00|2026-07-06T15:30:00.000+00:00|T",
       "notion_id": "392357e3-2952-80e1-83f7-ea40a34c340e",
       "title": "Usage"
     },
     {
-      "event_canon": "Eala Swiatek|2026-07-04T08:30:00+00:00|2026-07-04T09:45:00+00:00|T",
+      "event_canon": "Eala Swiatek|2026-07-04T08:30:00.000+00:00|2026-07-04T09:45:00.000+00:00|T",
       "event_uid": "47dbbb79-2f53-4131-84cb-bd699f162871@notion-apple-cal-sync",
-      "notion_canon": "Eala Swiatek|2026-07-04T08:30:00+00:00|2026-07-04T09:45:00+00:00|T",
+      "notion_canon": "Eala Swiatek|2026-07-04T08:30:00.000+00:00|2026-07-04T09:45:00.000+00:00|T",
       "notion_id": "392357e3-2952-80a1-8a46-dae9c57f852c",
       "title": "Eala Swiatek"
     },
@@ -324,114 +324,114 @@
       "title": "Call M&T Mortgage"
     },
     {
-      "event_canon": "Kate Prepaid Recon|2026-06-22T11:00:00.000+00:00|2026-06-22T12:00:00.000+00:00|T",
+      "event_canon": "Kate Prepaid Recon|2026-06-22T11:00:00+00:00|2026-06-22T12:00:00+00:00|T",
       "event_uid": "CA79A88A-0AF3-4D0D-BFA1-9DF19F824DBA",
-      "notion_canon": "Kate Prepaid Recon|2026-06-22T11:00:00.000+00:00|2026-06-22T12:00:00.000+00:00|T",
+      "notion_canon": "Kate Prepaid Recon|2026-06-22T11:00:00+00:00|2026-06-22T12:00:00+00:00|T",
       "notion_id": "39b357e3-2952-81e7-b569-c1c9622338e8",
       "title": "Kate Prepaid Recon"
     },
     {
-      "event_canon": "3. From Kate -Letter In Kind Rent and Gift Card\n4. From Kate - PR Cents SUTA Disparity|2026-06-22T11:00:00.000+00:00|2026-06-22T12:00:00.000+00:00|T",
+      "event_canon": "3. From Kate -Letter In Kind Rent and Gift Card\n4. From Kate - PR Cents SUTA Disparity|2026-06-22T11:00:00+00:00|2026-06-22T12:00:00+00:00|T",
       "event_uid": "E3B5E0A0-1263-49AA-B6ED-750D29A07D3B",
-      "notion_canon": "3. From Kate -Letter In Kind Rent and Gift Card\n4. From Kate - PR Cents SUTA Disparity|2026-06-22T11:00:00.000+00:00|2026-06-22T12:00:00.000+00:00|T",
+      "notion_canon": "3. From Kate -Letter In Kind Rent and Gift Card\n4. From Kate - PR Cents SUTA Disparity|2026-06-22T11:00:00+00:00|2026-06-22T12:00:00+00:00|T",
       "notion_id": "39b357e3-2952-812c-a125-e22c63cea12e",
       "title": "3. From Kate -Letter In Kind Rent and Gift Card\n4. From Kate - PR Cents SUTA Disparity"
     },
     {
-      "event_canon": "Meeting with Kate to fix Santara Messi post fix Blasa Condori and CHC create JE for accrued due to other parties|2026-06-22T14:00:00.000+00:00|2026-06-22T15:00:00.000+00:00|T",
+      "event_canon": "Meeting with Kate to fix Santara Messi post fix Blasa Condori and CHC create JE for accrued due to other parties|2026-06-22T14:00:00+00:00|2026-06-22T15:00:00+00:00|T",
       "event_uid": "E4C18A31-C688-491C-AD51-81A9758DC503",
-      "notion_canon": "Meeting with Kate to fix Santara Messi post fix Blasa Condori and CHC create JE for accrued due to other parties|2026-06-22T14:00:00.000+00:00|2026-06-22T15:00:00.000+00:00|T",
+      "notion_canon": "Meeting with Kate to fix Santara Messi post fix Blasa Condori and CHC create JE for accrued due to other parties|2026-06-22T14:00:00+00:00|2026-06-22T15:00:00+00:00|T",
       "notion_id": "39b357e3-2952-81a2-b141-f2740ad8da39",
       "title": "Meeting with Kate to fix Santara Messi post fix Blasa Condori and CHC create JE for accrued due to other parties "
     },
     {
-      "event_canon": "Mercury Bank issue|2026-06-22T16:30:00.000+00:00|2026-06-22T17:30:00.000+00:00|T",
+      "event_canon": "Mercury Bank issue|2026-06-22T16:30:00+00:00|2026-06-22T17:30:00+00:00|T",
       "event_uid": "45F7994E-C32D-41D1-B370-05B45E8C3450",
-      "notion_canon": "Mercury Bank issue|2026-06-22T16:30:00.000+00:00|2026-06-22T17:30:00.000+00:00|T",
+      "notion_canon": "Mercury Bank issue|2026-06-22T16:30:00+00:00|2026-06-22T17:30:00+00:00|T",
       "notion_id": "39b357e3-2952-810b-9930-d4d9456b1951",
       "title": "Mercury Bank issue"
     },
     {
-      "event_canon": "Kate Insurance Report|2026-06-22T16:30:00.000+00:00|2026-06-22T17:30:00.000+00:00|T",
+      "event_canon": "Kate Insurance Report|2026-06-22T16:30:00+00:00|2026-06-22T17:30:00+00:00|T",
       "event_uid": "931A2613-2BF4-48DC-9C6B-8E32A4D2F5C3",
-      "notion_canon": "Kate Insurance Report|2026-06-22T16:30:00.000+00:00|2026-06-22T17:30:00.000+00:00|T",
+      "notion_canon": "Kate Insurance Report|2026-06-22T16:30:00+00:00|2026-06-22T17:30:00+00:00|T",
       "notion_id": "39b357e3-2952-8196-89cc-e56e2c626d96",
       "title": "Kate Insurance Report"
     },
     {
-      "event_canon": "Census Work|2026-06-26T13:00:00.000+00:00|2026-06-26T14:00:00.000+00:00|T",
+      "event_canon": "Census Work|2026-06-26T13:00:00+00:00|2026-06-26T14:00:00+00:00|T",
       "event_uid": "929BA1C0-9E82-4909-AB89-C6A752751D79",
-      "notion_canon": "Census Work|2026-06-26T13:00:00.000+00:00|2026-06-26T14:00:00.000+00:00|T",
+      "notion_canon": "Census Work|2026-06-26T13:00:00+00:00|2026-06-26T14:00:00+00:00|T",
       "notion_id": "39b357e3-2952-8190-ab45-cd31d46b6b5c",
       "title": "Census Work"
     },
     {
-      "event_canon": "Govt Unearned|2026-06-26T14:00:00.000+00:00|2026-06-26T15:00:00.000+00:00|T",
+      "event_canon": "Govt Unearned|2026-06-26T14:00:00+00:00|2026-06-26T15:00:00+00:00|T",
       "event_uid": "E2D44288-D9B8-4A43-8938-B069F50E19A6",
-      "notion_canon": "Govt Unearned|2026-06-26T14:00:00.000+00:00|2026-06-26T15:00:00.000+00:00|T",
+      "notion_canon": "Govt Unearned|2026-06-26T14:00:00+00:00|2026-06-26T15:00:00+00:00|T",
       "notion_id": "39b357e3-2952-81ca-b97a-ef995778e047",
       "title": "Govt Unearned"
     },
     {
-      "event_canon": "Set up Ivey \u2014 Polymarket agent|2026-07-11T13:00:00.000+00:00|2026-07-11T16:55:00.000+00:00|T",
+      "event_canon": "Set up Ivey \u2014 Polymarket agent|2026-07-11T13:00:00+00:00|2026-07-11T16:55:00+00:00|T",
       "event_uid": "B49B5158-8514-4B32-A7AF-D2BCF19997B9",
-      "notion_canon": "Set up Ivey \u2014 Polymarket agent|2026-07-11T13:00:00.000+00:00|2026-07-11T16:55:00.000+00:00|T",
+      "notion_canon": "Set up Ivey \u2014 Polymarket agent|2026-07-11T13:00:00+00:00|2026-07-11T16:55:00+00:00|T",
       "notion_id": "39b357e3-2952-8191-919f-cb2e9d790b41",
       "title": "Set up Ivey \u2014 Polymarket agent"
     },
     {
-      "event_canon": "setup notion calendar|2026-07-11T17:00:00.000+00:00|2026-07-11T21:55:00.000+00:00|T",
+      "event_canon": "setup notion calendar|2026-07-11T17:00:00+00:00|2026-07-11T21:55:00+00:00|T",
       "event_uid": "CC8422A7-12A2-4BFC-B0AB-CA9C70835D3B",
-      "notion_canon": "setup notion calendar|2026-07-11T17:00:00.000+00:00|2026-07-11T21:55:00.000+00:00|T",
+      "notion_canon": "setup notion calendar|2026-07-11T17:00:00+00:00|2026-07-11T21:55:00+00:00|T",
       "notion_id": "39b357e3-2952-81ba-898f-f794e5143dbc",
       "title": "setup notion calendar "
     },
     {
-      "event_canon": "Set-up Agents|2026-07-11T22:15:00.000+00:00|2026-07-11T23:55:00.000+00:00|T",
+      "event_canon": "Set-up Agents|2026-07-11T22:15:00+00:00|2026-07-11T23:55:00+00:00|T",
       "event_uid": "6B5A1CC9-FFFA-430C-AAA2-9732A23D71AC",
-      "notion_canon": "Set-up Agents|2026-07-11T22:15:00.000+00:00|2026-07-11T23:55:00.000+00:00|T",
+      "notion_canon": "Set-up Agents|2026-07-11T22:15:00+00:00|2026-07-11T23:55:00+00:00|T",
       "notion_id": "39b357e3-2952-8134-ad9e-f2b0d282cd55",
       "title": "Set-up Agents"
     },
     {
-      "event_canon": "Dashboard for Cornerstones|2026-07-12T00:00:00.000+00:00|2026-07-12T01:00:00.000+00:00|T",
+      "event_canon": "Dashboard for Cornerstones|2026-07-12T00:00:00+00:00|2026-07-12T01:00:00+00:00|T",
       "event_uid": "2885C343-5C88-463A-BEB8-DC534274EB92",
-      "notion_canon": "Dashboard for Cornerstones|2026-07-12T00:00:00.000+00:00|2026-07-12T01:00:00.000+00:00|T",
+      "notion_canon": "Dashboard for Cornerstones|2026-07-12T00:00:00+00:00|2026-07-12T01:00:00+00:00|T",
       "notion_id": "39b357e3-2952-81d0-9f5b-efa46c7a83b7",
       "title": "Dashboard for Cornerstones"
     },
     {
-      "event_canon": "Set up content management blog (personal)|2026-07-12T10:00:00.000+00:00|2026-07-12T11:00:00.000+00:00|T",
+      "event_canon": "Set up content management blog (personal)|2026-07-12T10:00:00+00:00|2026-07-12T11:00:00+00:00|T",
       "event_uid": "5E43F6EE-6EFE-4ABC-ACF1-0D9563D57575",
-      "notion_canon": "Set up content management blog (personal)|2026-07-12T10:00:00.000+00:00|2026-07-12T11:00:00.000+00:00|T",
+      "notion_canon": "Set up content management blog (personal)|2026-07-12T10:00:00+00:00|2026-07-12T11:00:00+00:00|T",
       "notion_id": "39b357e3-2952-8152-a316-fefa6925902d",
       "title": "Set up content management blog (personal)"
     },
     {
-      "event_canon": "Set up Ivey \u2014 Polymarket agent|2026-07-12T12:45:00.000+00:00|2026-07-12T13:45:00.000+00:00|T",
+      "event_canon": "Set up Ivey \u2014 Polymarket agent|2026-07-12T12:45:00+00:00|2026-07-12T13:45:00+00:00|T",
       "event_uid": "BB3F3C49-AD95-4707-A6C8-01E1AA849E4C",
-      "notion_canon": "Set up Ivey \u2014 Polymarket agent|2026-07-12T12:45:00.000+00:00|2026-07-12T13:45:00.000+00:00|T",
+      "notion_canon": "Set up Ivey \u2014 Polymarket agent|2026-07-12T12:45:00+00:00|2026-07-12T13:45:00+00:00|T",
       "notion_id": "39b357e3-2952-813f-93af-e864360e20a3",
       "title": "Set up Ivey \u2014 Polymarket agent"
     },
     {
-      "event_canon": "GitHub work \u2014 highest-star repos|2026-07-12T15:30:00.000+00:00|2026-07-12T16:30:00.000+00:00|T",
+      "event_canon": "GitHub work \u2014 highest-star repos|2026-07-12T15:30:00+00:00|2026-07-12T16:30:00+00:00|T",
       "event_uid": "2E56BDB6-7967-4BCC-BA61-7D233A33C580",
-      "notion_canon": "GitHub work \u2014 highest-star repos|2026-07-12T15:30:00.000+00:00|2026-07-12T16:30:00.000+00:00|T",
+      "notion_canon": "GitHub work \u2014 highest-star repos|2026-07-12T15:30:00+00:00|2026-07-12T16:30:00+00:00|T",
       "notion_id": "39b357e3-2952-81af-a022-c5cf988fc43f",
       "title": "GitHub work \u2014 highest-star repos"
     },
     {
-      "event_canon": "Resume building|2026-07-12T17:00:00.000+00:00|2026-07-12T18:00:00.000+00:00|T",
+      "event_canon": "Resume building|2026-07-12T17:00:00+00:00|2026-07-12T18:00:00+00:00|T",
       "event_uid": "5BE6444A-AFE3-4711-BFA5-4CFA3E1557C9",
-      "notion_canon": "Resume building|2026-07-12T17:00:00.000+00:00|2026-07-12T18:00:00.000+00:00|T",
+      "notion_canon": "Resume building|2026-07-12T17:00:00+00:00|2026-07-12T18:00:00+00:00|T",
       "notion_id": "39b357e3-2952-8162-9f02-eb321032971f",
       "title": "Resume building"
     },
     {
-      "event_canon": "Set up Arnold \u2014 cybersecurity agent|2026-07-12T18:45:00.000+00:00|2026-07-12T19:45:00.000+00:00|T",
+      "event_canon": "Set up Arnold \u2014 cybersecurity agent|2026-07-12T18:45:00+00:00|2026-07-12T19:45:00+00:00|T",
       "event_uid": "D5C4F375-332D-4E95-9776-8C9ACF102C07",
-      "notion_canon": "Set up Arnold \u2014 cybersecurity agent|2026-07-12T18:45:00.000+00:00|2026-07-12T19:45:00.000+00:00|T",
+      "notion_canon": "Set up Arnold \u2014 cybersecurity agent|2026-07-12T18:45:00+00:00|2026-07-12T19:45:00+00:00|T",
       "notion_id": "39b357e3-2952-8186-b936-f0aeb4b97f15",
       "title": "Set up Arnold \u2014 cybersecurity agent"
     },
@@ -492,9 +492,9 @@
       "title": "Security hardening: tighten Mac tool permissions"
     },
     {
-      "event_canon": "Bank Recon|2026-07-13T22:00:00+00:00|2026-07-14T00:30:00+00:00|T",
+      "event_canon": "Bank Recon|2026-07-13T22:00:00.000+00:00|2026-07-14T00:30:00.000+00:00|T",
       "event_uid": "EAF70329-76F0-4F90-A597-BF0E9D0B023D",
-      "notion_canon": "Bank Recon|2026-07-13T22:00:00+00:00|2026-07-14T00:30:00+00:00|T",
+      "notion_canon": "Bank Recon|2026-07-13T22:00:00.000+00:00|2026-07-14T00:30:00.000+00:00|T",
       "notion_id": "39d357e3-2952-8118-b78b-c50b0b76202a",
       "title": "Bank Recon"
     },
