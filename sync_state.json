@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-07-21T18:17:50.998000+00:00",
+  "last_run": "2026-07-23T17:04:23.542844+00:00",
   "links": [
     {
       "event_canon": "Set up content management blog (personal)|2026-07-12T10:00:00+00:00|2026-07-12T10:30:00+00:00|T",
@@ -325,35 +325,35 @@
     },
     {
       "event_canon": "Kate Prepaid Recon|2026-06-22T11:00:00+00:00|2026-06-22T12:00:00+00:00|T",
-      "event_uid": "CA79A88A-0AF3-4D0D-BFA1-9DF19F824DBA",
+      "event_uid": "9ccadc49-fb22-4a38-86cd-1a8834f4c754@notion-apple-cal-sync",
       "notion_canon": "Kate Prepaid Recon|2026-06-22T11:00:00+00:00|2026-06-22T12:00:00+00:00|T",
       "notion_id": "39b357e3-2952-81e7-b569-c1c9622338e8",
       "title": "Kate Prepaid Recon"
     },
     {
       "event_canon": "3. From Kate -Letter In Kind Rent and Gift Card\n4. From Kate - PR Cents SUTA Disparity|2026-06-22T11:00:00+00:00|2026-06-22T12:00:00+00:00|T",
-      "event_uid": "E3B5E0A0-1263-49AA-B6ED-750D29A07D3B",
+      "event_uid": "4d158a69-78cc-43d9-8a4a-036b50fc8d38@notion-apple-cal-sync",
       "notion_canon": "3. From Kate -Letter In Kind Rent and Gift Card\n4. From Kate - PR Cents SUTA Disparity|2026-06-22T11:00:00+00:00|2026-06-22T12:00:00+00:00|T",
       "notion_id": "39b357e3-2952-812c-a125-e22c63cea12e",
       "title": "3. From Kate -Letter In Kind Rent and Gift Card\n4. From Kate - PR Cents SUTA Disparity"
     },
     {
       "event_canon": "Meeting with Kate to fix Santara Messi post fix Blasa Condori and CHC create JE for accrued due to other parties|2026-06-22T14:00:00+00:00|2026-06-22T15:00:00+00:00|T",
-      "event_uid": "E4C18A31-C688-491C-AD51-81A9758DC503",
+      "event_uid": "663e4e25-34e2-4525-911f-592f3accf567@notion-apple-cal-sync",
       "notion_canon": "Meeting with Kate to fix Santara Messi post fix Blasa Condori and CHC create JE for accrued due to other parties|2026-06-22T14:00:00+00:00|2026-06-22T15:00:00+00:00|T",
       "notion_id": "39b357e3-2952-81a2-b141-f2740ad8da39",
       "title": "Meeting with Kate to fix Santara Messi post fix Blasa Condori and CHC create JE for accrued due to other parties "
     },
     {
       "event_canon": "Mercury Bank issue|2026-06-22T16:30:00+00:00|2026-06-22T17:30:00+00:00|T",
-      "event_uid": "45F7994E-C32D-41D1-B370-05B45E8C3450",
+      "event_uid": "7851034f-4d91-4e13-a651-2702937aa67f@notion-apple-cal-sync",
       "notion_canon": "Mercury Bank issue|2026-06-22T16:30:00+00:00|2026-06-22T17:30:00+00:00|T",
       "notion_id": "39b357e3-2952-810b-9930-d4d9456b1951",
       "title": "Mercury Bank issue"
     },
     {
       "event_canon": "Kate Insurance Report|2026-06-22T16:30:00+00:00|2026-06-22T17:30:00+00:00|T",
-      "event_uid": "931A2613-2BF4-48DC-9C6B-8E32A4D2F5C3",
+      "event_uid": "c8737173-8be0-4f88-86bb-4be40cc4d006@notion-apple-cal-sync",
       "notion_canon": "Kate Insurance Report|2026-06-22T16:30:00+00:00|2026-06-22T17:30:00+00:00|T",
       "notion_id": "39b357e3-2952-8196-89cc-e56e2c626d96",
       "title": "Kate Insurance Report"
@@ -525,6 +525,55 @@
       "notion_canon": "Birthday of Reuben|2016-01-16||AD",
       "notion_id": "3a2357e3-2952-8184-a40c-e016b2996d61",
       "title": "Birthday of Reuben"
+    },
+    {
+      "event_canon": "Mercer Trigiani \u2014 HOA payment plan (Acct WRH36472)|2026-08-25||AD",
+      "event_uid": "0975527c-3663-4911-ad45-5ac12e9ef3c8@notion-apple-cal-sync",
+      "notion_canon": "Mercer Trigiani \u2014 HOA payment plan (Acct WRH36472)|2026-08-25||AD",
+      "notion_id": "3a6357e3-2952-8147-928f-ee74c9961536",
+      "title": "Mercer Trigiani \u2014 HOA payment plan (Acct WRH36472)"
+    },
+    {
+      "event_canon": "Pay AMEX $68.85 (due 7/26)|2026-07-24||AD",
+      "event_uid": "a154a3b5-f4ac-4275-bbc5-f38839c6093d@notion-apple-cal-sync",
+      "notion_canon": "Pay AMEX $68.85 (due 7/26)|2026-07-24||AD",
+      "notion_id": "3a6357e3-2952-816c-a791-e5aa7531efa3",
+      "title": "Pay AMEX $68.85 (due 7/26)"
+    },
+    {
+      "event_canon": "Renew VA driver's license (expires 9/4/26)|2026-07-24||AD",
+      "event_uid": "6637bd33-6450-4a91-9d93-5866a36e360d@notion-apple-cal-sync",
+      "notion_canon": "Renew VA driver's license (expires 9/4/26)|2026-07-24||AD",
+      "notion_id": "3a6357e3-2952-81cc-a93d-c3f95732f035",
+      "title": "Renew VA driver's license (expires 9/4/26)"
+    },
+    {
+      "event_canon": "Jasmine|2026-07-21T19:30:00+00:00|2026-07-21T20:30:00+00:00|T",
+      "event_uid": "DFB69550-3558-47E8-BC75-BCB4084534D2",
+      "notion_canon": "Jasmine|2026-07-21T19:30:00+00:00|2026-07-21T20:30:00+00:00|T",
+      "notion_id": "3a6357e3-2952-810b-ad9b-f15c973b4ef7",
+      "title": "Jasmine "
+    },
+    {
+      "event_canon": "Bank Recon|2026-07-23T15:45:00+00:00|2026-07-23T17:00:00+00:00|T",
+      "event_uid": "67A75D03-EC1F-4F26-B2B6-9C193207C436",
+      "notion_canon": "Bank Recon|2026-07-23T15:45:00+00:00|2026-07-23T17:00:00+00:00|T",
+      "notion_id": "3a6357e3-2952-8105-ac97-e302d6ece3e8",
+      "title": "Bank Recon"
+    },
+    {
+      "event_canon": "Viral AI Factory|2026-07-23T17:15:00+00:00|2026-07-23T18:15:00+00:00|T",
+      "event_uid": "C37BE4BB-9F65-4940-8FD6-D1D2484083E8",
+      "notion_canon": "Viral AI Factory|2026-07-23T17:15:00+00:00|2026-07-23T18:15:00+00:00|T",
+      "notion_id": "3a6357e3-2952-817d-92f6-ca61ab8f2028",
+      "title": "Viral AI Factory"
+    },
+    {
+      "event_canon": "Deposit ACH App|2026-07-23T18:30:00+00:00|2026-07-23T19:30:00+00:00|T",
+      "event_uid": "E399B88F-04EB-4437-8FC7-1B55CCF47FB7",
+      "notion_canon": "Deposit ACH App|2026-07-23T18:30:00+00:00|2026-07-23T19:30:00+00:00|T",
+      "notion_id": "3a6357e3-2952-815a-9169-f64b564cb118",
+      "title": "Deposit ACH App"
     }
   ]
 }
