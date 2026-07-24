@@ -1,10 +1,10 @@
 {
-  "last_run": "2026-07-24T15:51:01.511771+00:00",
+  "last_run": "2026-07-24T17:45:20.113376+00:00",
   "links": [
     {
-      "event_canon": "Cancel Lifetime (4pm)|2026-07-24T17:30:00+00:00|2026-07-24T18:30:00+00:00|T",
+      "event_canon": "Cancel Lifetime (4pm)|2026-07-24T17:30:00+00:00|2026-07-24T18:00:00+00:00|T",
       "event_uid": "00eda86b-33ae-49a7-a849-c33e9f497e6f@notion-apple-cal-sync",
-      "notion_canon": "Cancel Lifetime (4pm)|2026-07-24T17:30:00+00:00|2026-07-24T18:30:00+00:00|T",
+      "notion_canon": "Cancel Lifetime (4pm)|2026-07-24T17:30:00+00:00|2026-07-24T18:00:00+00:00|T",
       "notion_id": "3a7357e3-2952-8106-970e-e46fa4c1573e",
       "title": "Cancel Lifetime (4pm)"
     },
@@ -192,7 +192,7 @@
     },
     {
       "event_canon": "Bank Recon|2026-07-24T17:00:00+00:00|2026-07-24T18:00:00+00:00|T",
-      "event_uid": "feec8141-3143-4d13-bbe3-09fea370f2eb@notion-apple-cal-sync",
+      "event_uid": "cf7f9039-7a29-4695-be7a-9678a1f4c58f@notion-apple-cal-sync",
       "notion_canon": "Bank Recon|2026-07-24T17:00:00+00:00|2026-07-24T18:00:00+00:00|T",
       "notion_id": "39f357e3-2952-80d7-8cd5-e1beb33023b2",
       "title": "Bank Recon"
@@ -241,7 +241,7 @@
     },
     {
       "event_canon": "HOA \u2014 Arrears payment 7/9: $150 (bal $295.25)|2027-02-25||AD",
-      "event_uid": "a400722a-fefc-44d9-a33c-4dc1cc790a1e@notion-apple-cal-sync",
+      "event_uid": "9d7e921d-f5f6-4948-891d-d55cb8c8798b@notion-apple-cal-sync",
       "notion_canon": "HOA \u2014 Arrears payment 7/9: $150 (bal $295.25)|2027-02-25||AD",
       "notion_id": "39c357e3-2952-8124-8396-ff22e9ebfcd3",
       "title": "HOA \u2014 Arrears payment 7/9: $150 (bal $295.25)"
@@ -269,21 +269,21 @@
     },
     {
       "event_canon": "HOA \u2014 Final arrears payment 9/9: $145.25 (paid in full)|2027-04-25||AD",
-      "event_uid": "aeb7662a-8283-4283-af8d-9f82c5e91e90@notion-apple-cal-sync",
+      "event_uid": "d16c597f-3564-4ba0-affe-79c3c2fbaec8@notion-apple-cal-sync",
       "notion_canon": "HOA \u2014 Final arrears payment 9/9: $145.25 (paid in full)|2027-04-25||AD",
       "notion_id": "39c357e3-2952-819b-83f8-c38ebb80095f",
       "title": "HOA \u2014 Final arrears payment 9/9: $145.25 (paid in full)"
     },
     {
       "event_canon": "HOA \u2014 Arrears payment 6/9: $150 (bal $445.25)|2027-01-25||AD",
-      "event_uid": "50c6b6d5-7226-46ed-acfb-e68719f93e0e@notion-apple-cal-sync",
+      "event_uid": "51559ff9-a3cd-418c-9131-96ca5a4019c9@notion-apple-cal-sync",
       "notion_canon": "HOA \u2014 Arrears payment 6/9: $150 (bal $445.25)|2027-01-25||AD",
       "notion_id": "39c357e3-2952-81c3-a464-f5da47fe2eb6",
       "title": "HOA \u2014 Arrears payment 6/9: $150 (bal $445.25)"
     },
     {
       "event_canon": "HOA \u2014 Arrears payment 8/9: $150 (bal $145.25)|2027-03-25||AD",
-      "event_uid": "35e02066-37de-4427-87a2-10d17d24c422@notion-apple-cal-sync",
+      "event_uid": "fd8ddfae-9f69-4231-b5eb-6c168a0eaf28@notion-apple-cal-sync",
       "notion_canon": "HOA \u2014 Arrears payment 8/9: $150 (bal $145.25)|2027-03-25||AD",
       "notion_id": "39c357e3-2952-81df-8969-cb5731860ed4",
       "title": "HOA \u2014 Arrears payment 8/9: $150 (bal $145.25)"
@@ -938,6 +938,13 @@
       "notion_canon": "HOA \u2014 Arrears payment 5/9: $150 (bal $595.25)|2026-12-30||AD",
       "notion_id": "3a7357e3-2952-817c-85e6-f80e4cde11cf",
       "title": "HOA \u2014 Arrears payment 5/9: $150 (bal $595.25)"
+    },
+    {
+      "event_canon": "Solomon did you attach the bottom based serial pic in the claim|2026-07-24||AD",
+      "event_uid": "3a9b534f-4fc0-497e-a42c-97efd95f93d2@notion-apple-cal-sync",
+      "notion_canon": "Solomon did you attach the bottom based serial pic in the claim|2026-07-24||AD",
+      "notion_id": "3a7357e3-2952-8017-ac4d-f0136fa12181",
+      "title": "Solomon did you attach the bottom based serial pic in the claim"
     }
   ]
 }
