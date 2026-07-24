@@ -1,4 +1,943 @@
 {
-  "last_run": null,
-  "links": []
+  "last_run": "2026-07-24T15:51:01.511771+00:00",
+  "links": [
+    {
+      "event_canon": "Cancel Lifetime (4pm)|2026-07-24T17:30:00+00:00|2026-07-24T18:30:00+00:00|T",
+      "event_uid": "00eda86b-33ae-49a7-a849-c33e9f497e6f@notion-apple-cal-sync",
+      "notion_canon": "Cancel Lifetime (4pm)|2026-07-24T17:30:00+00:00|2026-07-24T18:30:00+00:00|T",
+      "notion_id": "3a7357e3-2952-8106-970e-e46fa4c1573e",
+      "title": "Cancel Lifetime (4pm)"
+    },
+    {
+      "event_canon": "Leave for M&T|2026-07-24T19:00:00+00:00|2026-07-24T20:00:00+00:00|T",
+      "event_uid": "5c09f746-758f-4fa4-8800-b87aca662681@notion-apple-cal-sync",
+      "notion_canon": "Leave for M&T|2026-07-24T19:00:00+00:00|2026-07-24T20:00:00+00:00|T",
+      "notion_id": "3a7357e3-2952-8119-acc7-ffcd27aa39c6",
+      "title": "Leave for M&T"
+    },
+    {
+      "event_canon": "Help Sangeeta \u2014 mileage & check request form|2026-07-24T13:00:00+00:00|2026-07-24T14:00:00+00:00|T",
+      "event_uid": "e0ae7d9d-09e5-45c3-8621-cfeea8ec6f4d@notion-apple-cal-sync",
+      "notion_canon": "Help Sangeeta \u2014 mileage & check request form|2026-07-24T13:00:00+00:00|2026-07-24T14:00:00+00:00|T",
+      "notion_id": "3a7357e3-2952-8124-87dd-d2609e494fea",
+      "title": "Help Sangeeta \u2014 mileage & check request form"
+    },
+    {
+      "event_canon": "Resolve Katalyst invoices (with Kate & Sangeeta)|2026-07-24T14:00:00+00:00|2026-07-24T15:00:00+00:00|T",
+      "event_uid": "6860fc42-ac8c-435b-ab53-d0d5684c91ce@notion-apple-cal-sync",
+      "notion_canon": "Resolve Katalyst invoices (with Kate & Sangeeta)|2026-07-24T14:00:00+00:00|2026-07-24T15:00:00+00:00|T",
+      "notion_id": "3a7357e3-2952-8160-b2ab-ca60c1d0a8da",
+      "title": "Resolve Katalyst invoices (with Kate & Sangeeta)"
+    },
+    {
+      "event_canon": "Pay Reuben \u2014 credit card due|2026-07-24T15:00:00+00:00|2026-07-24T16:00:00+00:00|T",
+      "event_uid": "e9bbb405-88a3-4b33-aff5-1575e4ed086d@notion-apple-cal-sync",
+      "notion_canon": "Pay Reuben \u2014 credit card due|2026-07-24T15:00:00+00:00|2026-07-24T16:00:00+00:00|T",
+      "notion_id": "3a7357e3-2952-81c1-b4d7-c9e2cc4664f4",
+      "title": "Pay Reuben \u2014 credit card due"
+    },
+    {
+      "event_canon": "Deferred Revenue Recon|2026-07-24T20:00:00+00:00|2026-07-24T21:00:00+00:00|T",
+      "event_uid": "55fcc847-8aa5-4935-bf1d-93dff7764589@notion-apple-cal-sync",
+      "notion_canon": "Deferred Revenue Recon|2026-07-24T20:00:00+00:00|2026-07-24T21:00:00+00:00|T",
+      "notion_id": "3a6357e3-2952-81fa-b433-c8b4266c8510",
+      "title": "Deferred Revenue Recon"
+    },
+    {
+      "event_canon": "Viral AI Factory|2026-07-24T18:00:00+00:00|2026-07-24T19:00:00+00:00|T",
+      "event_uid": "e009841e-33e8-43d8-a17a-579cf58f5100@notion-apple-cal-sync",
+      "notion_canon": "Viral AI Factory|2026-07-24T18:00:00+00:00|2026-07-24T19:00:00+00:00|T",
+      "notion_id": "3a6357e3-2952-814f-a899-cd588df05149",
+      "title": "Viral AI Factory"
+    },
+    {
+      "event_canon": "Deposit ACH App|2026-07-24T19:00:00+00:00|2026-07-24T20:00:00+00:00|T",
+      "event_uid": "5d19e6b4-9513-4fd4-bb9f-7884f68c0ff5@notion-apple-cal-sync",
+      "notion_canon": "Deposit ACH App|2026-07-24T19:00:00+00:00|2026-07-24T20:00:00+00:00|T",
+      "notion_id": "3a6357e3-2952-8199-8525-f3454ca701f5",
+      "title": "Deposit ACH App"
+    },
+    {
+      "event_canon": "Mercer Trig Update|2026-07-21||AD",
+      "event_uid": "fbbbe9ca-9206-431a-b7ee-25ba52a8d9a4@notion-apple-cal-sync",
+      "notion_canon": "Mercer Trig Update|2026-07-21||AD",
+      "notion_id": "3a4357e3-2952-80b8-ada1-d980a64191c1",
+      "title": "Mercer Trig Update"
+    },
+    {
+      "event_canon": "Ask Kate regarding Fulton, C4h and NR if all 12 statements|2026-07-20||AD",
+      "event_uid": "f137072e-9ac7-48e3-9e75-bef42c6062f6@notion-apple-cal-sync",
+      "notion_canon": "Ask Kate regarding Fulton, C4h and NR if all 12 statements|2026-07-20||AD",
+      "notion_id": "3a3357e3-2952-806b-8326-c79e3e832bda",
+      "title": "Ask Kate regarding Fulton, C4h and NR if all 12 statements"
+    },
+    {
+      "event_canon": "Jerry- Process New Bank Statements in Inbox, Check Signatures leading to email draft for Ted|2026-07-20||AD",
+      "event_uid": "ad57e69a-ea27-4040-b80d-a5c0bb45ac6f@notion-apple-cal-sync",
+      "notion_canon": "Jerry- Process New Bank Statements in Inbox, Check Signatures leading to email draft for Ted|2026-07-20||AD",
+      "notion_id": "3a3357e3-2952-8042-93ff-dde330e91cea",
+      "title": "Jerry- Process New Bank Statements in Inbox, Check Signatures leading to email draft for Ted"
+    },
+    {
+      "event_canon": "Port v18 \"prospers\" text-patch fix onto v16/v19 cut|2026-07-19||AD",
+      "event_uid": "d3fcec03-f014-4942-9db7-355d4bcdb03c@notion-apple-cal-sync",
+      "notion_canon": "Port v18 \"prospers\" text-patch fix onto v16/v19 cut|2026-07-19||AD",
+      "notion_id": "3a2357e3-2952-8198-978d-f28e74595573",
+      "title": "Port v18 \"prospers\" text-patch fix onto v16/v19 cut"
+    },
+    {
+      "event_canon": "Fix text errors in Hagah v17 REV02 cut (Bobby QA pass)|2026-07-19||AD",
+      "event_uid": "911e3803-30c5-4fb0-ae97-fe764ce81673@notion-apple-cal-sync",
+      "notion_canon": "Fix text errors in Hagah v17 REV02 cut (Bobby QA pass)|2026-07-19||AD",
+      "notion_id": "3a2357e3-2952-8138-9ea4-d5f5381125d5",
+      "title": "Fix text errors in Hagah v17 REV02 cut (Bobby QA pass)"
+    },
+    {
+      "event_canon": "Does Bobby know how to see line text errors, Misalignments For text on screen.|2026-07-19||AD",
+      "event_uid": "3ffc573a-0ef6-4cdd-9cdd-3263eccd5e19@notion-apple-cal-sync",
+      "notion_canon": "Does Bobby know how to see line text errors, Misalignments For text on screen.|2026-07-19||AD",
+      "notion_id": "3a2357e3-2952-808e-b4cd-f8f79b4bd9bb",
+      "title": "Does Bobby know how to see line text errors, Misalignments For text on screen."
+    },
+    {
+      "event_canon": "Make client-qb-advance-reporting repo private|2026-07-18||AD",
+      "event_uid": "7c50cb13-2e2c-4621-8dcc-f5aa8c795180@notion-apple-cal-sync",
+      "notion_canon": "Make client-qb-advance-reporting repo private|2026-07-18||AD",
+      "notion_id": "3a2357e3-2952-812c-89f4-c608e9f96e65",
+      "title": "Make client-qb-advance-reporting repo private"
+    },
+    {
+      "event_canon": "Make cs-jh-401k-audit repo private|2026-07-18||AD",
+      "event_uid": "a4188cc7-c864-4c39-bd8c-54ed0698fa0e@notion-apple-cal-sync",
+      "notion_canon": "Make cs-jh-401k-audit repo private|2026-07-18||AD",
+      "notion_id": "3a2357e3-2952-817c-8bf8-ed6253fd657a",
+      "title": "Make cs-jh-401k-audit repo private"
+    },
+    {
+      "event_canon": "Make notion-apple-cal-sync repo private|2026-07-18||AD",
+      "event_uid": "60e7caa0-561d-41cc-8d95-ad200109c09c@notion-apple-cal-sync",
+      "notion_canon": "Make notion-apple-cal-sync repo private|2026-07-18||AD",
+      "notion_id": "3a2357e3-2952-81b1-91d3-ffe77748b531",
+      "title": "Make notion-apple-cal-sync repo private"
+    },
+    {
+      "event_canon": "Narrow Desktop Commander allowedDirectories|2026-07-18||AD",
+      "event_uid": "347213f7-17fd-47d4-9ccc-f1440cc2d4a2@notion-apple-cal-sync",
+      "notion_canon": "Narrow Desktop Commander allowedDirectories|2026-07-18||AD",
+      "notion_id": "3a2357e3-2952-81da-8aa9-cf1e2df6d2f5",
+      "title": "Narrow Desktop Commander allowedDirectories"
+    },
+    {
+      "event_canon": "Decide on public showcase repo copies|2026-07-18||AD",
+      "event_uid": "26e8a238-94c5-4be5-8e3e-6c845ed82c76@notion-apple-cal-sync",
+      "notion_canon": "Decide on public showcase repo copies|2026-07-18||AD",
+      "notion_id": "3a2357e3-2952-81dd-9d14-f3711f120be5",
+      "title": "Decide on public showcase repo copies"
+    },
+    {
+      "event_canon": "Review macOS Accessibility permissions|2026-07-18||AD",
+      "event_uid": "4093a05b-3548-43b6-a4c0-5cdc6f79abee@notion-apple-cal-sync",
+      "notion_canon": "Review macOS Accessibility permissions|2026-07-18||AD",
+      "notion_id": "3a2357e3-2952-81fb-b843-d3c339b47533",
+      "title": "Review macOS Accessibility permissions"
+    },
+    {
+      "event_canon": "Check OpenCut|2026-07-19||AD",
+      "event_uid": "d7fc6dc2-f62d-4f47-88f1-afb9b42fcdb8@notion-apple-cal-sync",
+      "notion_canon": "Check OpenCut|2026-07-19||AD",
+      "notion_id": "3a2357e3-2952-80e7-be5f-dc898f4a423d",
+      "title": "Check OpenCut"
+    },
+    {
+      "event_canon": "Prepare Mercer reply|2026-07-19||AD",
+      "event_uid": "1f3cb1e2-125e-42c4-ad13-26c12159bebf@notion-apple-cal-sync",
+      "notion_canon": "Prepare Mercer reply|2026-07-19||AD",
+      "notion_id": "3a2357e3-2952-809e-ad04-c3ce28fa62da",
+      "title": "Prepare Mercer reply"
+    },
+    {
+      "event_canon": "Check Ally bill|2026-07-19||AD",
+      "event_uid": "a83545b5-d3b4-4e59-b5af-18be5301ad1c@notion-apple-cal-sync",
+      "notion_canon": "Check Ally bill|2026-07-19||AD",
+      "notion_id": "3a2357e3-2952-80bd-90c3-c4065d271294",
+      "title": "Check Ally bill"
+    },
+    {
+      "event_canon": "Organize assets|2026-07-19||AD",
+      "event_uid": "02de9161-dd87-4fe6-8621-dcb16bb5092a@notion-apple-cal-sync",
+      "notion_canon": "Organize assets|2026-07-19||AD",
+      "notion_id": "3a1357e3-2952-801b-a6ac-f815e6273130",
+      "title": "Organize assets"
+    },
+    {
+      "event_canon": "Place my Warranty Claim for Simple Modern|2026-07-21||AD",
+      "event_uid": "48c8f78b-79cb-47b4-ad33-72b7ea935c29@notion-apple-cal-sync",
+      "notion_canon": "Place my Warranty Claim for Simple Modern|2026-07-21||AD",
+      "notion_id": "3a1357e3-2952-8020-81df-cb339e489c6f",
+      "title": "Place my Warranty Claim for Simple Modern"
+    },
+    {
+      "event_canon": "NOVEC due|2026-07-21||AD",
+      "event_uid": "8f22b535-1c8e-4337-858e-bfd994bf4065@notion-apple-cal-sync",
+      "notion_canon": "NOVEC due|2026-07-21||AD",
+      "notion_id": "39f357e3-2952-8052-bef2-cee39d1c865e",
+      "title": "NOVEC due"
+    },
+    {
+      "event_canon": "Check MT Loan Payment|2026-07-16||AD",
+      "event_uid": "9a22c4c1-ce86-4d81-9db1-0477241a20e5@notion-apple-cal-sync",
+      "notion_canon": "Check MT Loan Payment|2026-07-16||AD",
+      "notion_id": "39f357e3-2952-80cf-b99c-de745112e57d",
+      "title": "Check MT Loan Payment"
+    },
+    {
+      "event_canon": "Bank Recon|2026-07-24T17:00:00+00:00|2026-07-24T18:00:00+00:00|T",
+      "event_uid": "feec8141-3143-4d13-bbe3-09fea370f2eb@notion-apple-cal-sync",
+      "notion_canon": "Bank Recon|2026-07-24T17:00:00+00:00|2026-07-24T18:00:00+00:00|T",
+      "notion_id": "39f357e3-2952-80d7-8cd5-e1beb33023b2",
+      "title": "Bank Recon"
+    },
+    {
+      "event_canon": "Call Legal Resources For SBA|2026-07-21||AD",
+      "event_uid": "94890bf4-3c53-4be1-bfe4-56e79a7a7033@notion-apple-cal-sync",
+      "notion_canon": "Call Legal Resources For SBA|2026-07-21||AD",
+      "notion_id": "39f357e3-2952-8074-b509-c04d9e677fcd",
+      "title": "Call Legal Resources For SBA"
+    },
+    {
+      "event_canon": "HOA \u2014 Draft response letter to MercerTrigiani (Solomon + Jon)|2026-07-14T18:00:00+00:00|2026-07-14T18:30:00+00:00|T",
+      "event_uid": "050d69a3-898e-483f-9060-74fc232a64c0@notion-apple-cal-sync",
+      "notion_canon": "HOA \u2014 Draft response letter to MercerTrigiani (Solomon + Jon)|2026-07-14T18:00:00+00:00|2026-07-14T18:30:00+00:00|T",
+      "notion_id": "39d357e3-2952-815d-a299-c5bb6642551c",
+      "title": "HOA \u2014 Draft response letter to MercerTrigiani (Solomon + Jon)"
+    },
+    {
+      "event_canon": "SBA EIDL \u2014 Draft Coast Professional letter to resume Treasury catch-up payments|2026-07-15T01:00:00+00:00|2026-07-15T01:30:00+00:00|T",
+      "event_uid": "06f0c6e8-5c05-43cc-acda-2a065d1edf30@notion-apple-cal-sync",
+      "notion_canon": "SBA EIDL \u2014 Draft Coast Professional letter to resume Treasury catch-up payments|2026-07-15T01:00:00+00:00|2026-07-15T01:30:00+00:00|T",
+      "notion_id": "39d357e3-2952-81bb-96c2-efefd2d3b7a5",
+      "title": "SBA EIDL \u2014 Draft Coast Professional letter to resume Treasury catch-up payments"
+    },
+    {
+      "event_canon": "Psalm 1 as a Meditation|2026-07-14||AD",
+      "event_uid": "9fdab228-b9f4-4c74-82f3-fb1d77e4317b@notion-apple-cal-sync",
+      "notion_canon": "Psalm 1 as a Meditation|2026-07-14||AD",
+      "notion_id": "39d357e3-2952-80f1-8dc4-dba4d84b144a",
+      "title": "Psalm 1 as a Meditation"
+    },
+    {
+      "event_canon": "HOA \u2014 Pay quarterly dues $246 (Winding Ridge, Acct WRH36472)|2026-07-30||AD",
+      "event_uid": "b50f6912-2e42-405d-b488-8b995f4445da@notion-apple-cal-sync",
+      "notion_canon": "HOA \u2014 Pay quarterly dues $246 (Winding Ridge, Acct WRH36472)|2026-07-30||AD",
+      "notion_id": "39c357e3-2952-8101-bcce-dc6029771e61",
+      "title": "HOA \u2014 Pay quarterly dues $246 (Winding Ridge, Acct WRH36472)"
+    },
+    {
+      "event_canon": "HOA \u2014 Arrears payment 5/9: $150 (bal $595.25) \u2014 send early (Christmas)|2026-12-25||AD",
+      "event_uid": "364b8d39-edc3-49f3-865d-eb1862fd9824@notion-apple-cal-sync",
+      "notion_canon": "HOA \u2014 Arrears payment 5/9: $150 (bal $595.25) \u2014 send early (Christmas)|2026-12-25||AD",
+      "notion_id": "39c357e3-2952-811e-9387-cd31f08dd978",
+      "title": "HOA \u2014 Arrears payment 5/9: $150 (bal $595.25) \u2014 send early (Christmas)"
+    },
+    {
+      "event_canon": "HOA \u2014 Arrears payment 7/9: $150 (bal $295.25)|2027-02-25||AD",
+      "event_uid": "a400722a-fefc-44d9-a33c-4dc1cc790a1e@notion-apple-cal-sync",
+      "notion_canon": "HOA \u2014 Arrears payment 7/9: $150 (bal $295.25)|2027-02-25||AD",
+      "notion_id": "39c357e3-2952-8124-8396-ff22e9ebfcd3",
+      "title": "HOA \u2014 Arrears payment 7/9: $150 (bal $295.25)"
+    },
+    {
+      "event_canon": "HOA \u2014 Arrears payment 4/9: $150 (bal $745.25)|2026-11-25||AD",
+      "event_uid": "9e0ad623-f63d-4a67-a452-a24b40819b73@notion-apple-cal-sync",
+      "notion_canon": "HOA \u2014 Arrears payment 4/9: $150 (bal $745.25)|2026-11-25||AD",
+      "notion_id": "39c357e3-2952-812c-b082-c90d3ccb9e95",
+      "title": "HOA \u2014 Arrears payment 4/9: $150 (bal $745.25)"
+    },
+    {
+      "event_canon": "HOA \u2014 Arrears payment 2/9: $150 (bal $1,045.25)|2026-09-25||AD",
+      "event_uid": "1f8fb55b-f514-4ff4-a71a-8b041a03601f@notion-apple-cal-sync",
+      "notion_canon": "HOA \u2014 Arrears payment 2/9: $150 (bal $1,045.25)|2026-09-25||AD",
+      "notion_id": "39c357e3-2952-815d-b2ce-f592a72ed929",
+      "title": "HOA \u2014 Arrears payment 2/9: $150 (bal $1,045.25)"
+    },
+    {
+      "event_canon": "HOA \u2014 Arrears payment 1/9: $150 (bal $1,195.25)|2026-08-25||AD",
+      "event_uid": "f3a0bffe-23b1-4be3-a24f-c8c0ecc3b321@notion-apple-cal-sync",
+      "notion_canon": "HOA \u2014 Arrears payment 1/9: $150 (bal $1,195.25)|2026-08-25||AD",
+      "notion_id": "39c357e3-2952-8164-9829-cb7341278336",
+      "title": "HOA \u2014 Arrears payment 1/9: $150 (bal $1,195.25)"
+    },
+    {
+      "event_canon": "HOA \u2014 Final arrears payment 9/9: $145.25 (paid in full)|2027-04-25||AD",
+      "event_uid": "aeb7662a-8283-4283-af8d-9f82c5e91e90@notion-apple-cal-sync",
+      "notion_canon": "HOA \u2014 Final arrears payment 9/9: $145.25 (paid in full)|2027-04-25||AD",
+      "notion_id": "39c357e3-2952-819b-83f8-c38ebb80095f",
+      "title": "HOA \u2014 Final arrears payment 9/9: $145.25 (paid in full)"
+    },
+    {
+      "event_canon": "HOA \u2014 Arrears payment 6/9: $150 (bal $445.25)|2027-01-25||AD",
+      "event_uid": "50c6b6d5-7226-46ed-acfb-e68719f93e0e@notion-apple-cal-sync",
+      "notion_canon": "HOA \u2014 Arrears payment 6/9: $150 (bal $445.25)|2027-01-25||AD",
+      "notion_id": "39c357e3-2952-81c3-a464-f5da47fe2eb6",
+      "title": "HOA \u2014 Arrears payment 6/9: $150 (bal $445.25)"
+    },
+    {
+      "event_canon": "HOA \u2014 Arrears payment 8/9: $150 (bal $145.25)|2027-03-25||AD",
+      "event_uid": "35e02066-37de-4427-87a2-10d17d24c422@notion-apple-cal-sync",
+      "notion_canon": "HOA \u2014 Arrears payment 8/9: $150 (bal $145.25)|2027-03-25||AD",
+      "notion_id": "39c357e3-2952-81df-8969-cb5731860ed4",
+      "title": "HOA \u2014 Arrears payment 8/9: $150 (bal $145.25)"
+    },
+    {
+      "event_canon": "HOA \u2014 Arrears payment 3/9: $150 (bal $895.25)|2026-10-25||AD",
+      "event_uid": "6f4b7b0b-4fa8-479e-b7e4-9c2d2ba23c0f@notion-apple-cal-sync",
+      "notion_canon": "HOA \u2014 Arrears payment 3/9: $150 (bal $895.25)|2026-10-25||AD",
+      "notion_id": "39c357e3-2952-81e9-b37e-f592696386eb",
+      "title": "HOA \u2014 Arrears payment 3/9: $150 (bal $895.25)"
+    },
+    {
+      "event_canon": "KDP Niche Research \u2014 Psalm 1 Book (Greenlight Memo)|2026-07-17||AD",
+      "event_uid": "41693479-34da-455a-b97a-5cbd55f971d6@notion-apple-cal-sync",
+      "notion_canon": "KDP Niche Research \u2014 Psalm 1 Book (Greenlight Memo)|2026-07-17||AD",
+      "notion_id": "39a357e3-2952-8175-a2ea-dfa53b1e41da",
+      "title": "KDP Niche Research \u2014 Psalm 1 Book (Greenlight Memo)"
+    },
+    {
+      "event_canon": "Pay Ally for August|2026-07-10||AD",
+      "event_uid": "34cb7947-0ad4-4967-98b6-d8438783ab2f@notion-apple-cal-sync",
+      "notion_canon": "Pay Ally for August|2026-07-10||AD",
+      "notion_id": "398357e3-2952-80f8-948e-c5a70a71891f",
+      "title": "Pay Ally for August"
+    },
+    {
+      "event_canon": "FY27 \u00b7 PD 07/02/2026 Payroll \u2014 Generate 4 QuickBooks IIF files|2026-07-08||AD",
+      "event_uid": "3cfce5e0-c136-47e2-b6f2-0444d0eaf872@notion-apple-cal-sync",
+      "notion_canon": "FY27 \u00b7 PD 07/02/2026 Payroll \u2014 Generate 4 QuickBooks IIF files|2026-07-08||AD",
+      "notion_id": "397357e3-2952-8147-a366-cce4f04df77a",
+      "title": "FY27 \u00b7 PD 07/02/2026 Payroll \u2014 Generate 4 QuickBooks IIF files"
+    },
+    {
+      "event_canon": "Bruce - audit gitbub repos on a schedule|2026-07-23||AD",
+      "event_uid": "48090c37-20c4-4db3-a78e-492889d829b1@notion-apple-cal-sync",
+      "notion_canon": "Bruce - audit gitbub repos on a schedule|2026-07-23||AD",
+      "notion_id": "395357e3-2952-80d8-9442-f84c27b8b7d9",
+      "title": "Bruce - audit gitbub repos on a schedule"
+    },
+    {
+      "event_canon": "Gift Card Count|2026-06-30||AD",
+      "event_uid": "43a37e36-dc4d-4074-9a44-0964d7ad3583@notion-apple-cal-sync",
+      "notion_canon": "Gift Card Count|2026-06-30||AD",
+      "notion_id": "38e357e3-2952-8096-96ab-fee225ff08b1",
+      "title": "Gift Card Count"
+    },
+    {
+      "event_canon": "Follow-up Rotary Club|2026-06-29||AD",
+      "event_uid": "100d1409-2a22-4823-a8fa-65c9a1db6c6d@notion-apple-cal-sync",
+      "notion_canon": "Follow-up Rotary Club|2026-06-29||AD",
+      "notion_id": "38e357e3-2952-800a-b4eb-d290522452a2",
+      "title": "Follow-up Rotary Club"
+    },
+    {
+      "event_canon": "CS Census|2026-06-28||AD",
+      "event_uid": "d68160cb-fb20-4a86-987e-80f416124c68@notion-apple-cal-sync",
+      "notion_canon": "CS Census|2026-06-28||AD",
+      "notion_id": "38e357e3-2952-8028-93a3-c8cf53a63524",
+      "title": "CS Census"
+    },
+    {
+      "event_canon": "\ud83c\udfac Haru Recap Reel \u2014 Greenlight & budget (Stage 0)|2026-06-28||AD",
+      "event_uid": "ebd35b07-082a-4393-b6fe-b8f98f679414@notion-apple-cal-sync",
+      "notion_canon": "\ud83c\udfac Haru Recap Reel \u2014 Greenlight & budget (Stage 0)|2026-06-28||AD",
+      "notion_id": "38d357e3-2952-8106-9e28-e4bf1c981717",
+      "title": "\ud83c\udfac Haru Recap Reel \u2014 Greenlight & budget (Stage 0)"
+    },
+    {
+      "event_canon": "\ud83c\udfac Haru Recap Reel \u2014 Pre-production package (Stage 2)|2026-06-30||AD",
+      "event_uid": "8613654a-f599-41f2-b7c2-de83d1631db6@notion-apple-cal-sync",
+      "notion_canon": "\ud83c\udfac Haru Recap Reel \u2014 Pre-production package (Stage 2)|2026-06-30||AD",
+      "notion_id": "38d357e3-2952-8125-91c8-de0ab74b77d4",
+      "title": "\ud83c\udfac Haru Recap Reel \u2014 Pre-production package (Stage 2)"
+    },
+    {
+      "event_canon": "\ud83c\udfac Haru Recap Reel \u2014 Production: generate + assemble cut (Stage 3)|2026-07-02||AD",
+      "event_uid": "955d80b7-a4d1-4b15-82e7-b5b8fe9db3a5@notion-apple-cal-sync",
+      "notion_canon": "\ud83c\udfac Haru Recap Reel \u2014 Production: generate + assemble cut (Stage 3)|2026-07-02||AD",
+      "notion_id": "38d357e3-2952-8146-8398-fc3c707c1b98",
+      "title": "\ud83c\udfac Haru Recap Reel \u2014 Production: generate + assemble cut (Stage 3)"
+    },
+    {
+      "event_canon": "\ud83c\udfac Haru Recap Reel \u2014 Gate \u2460 score \u22658/10|2026-07-01||AD",
+      "event_uid": "27443945-64a7-43de-be15-755f43a80053@notion-apple-cal-sync",
+      "notion_canon": "\ud83c\udfac Haru Recap Reel \u2014 Gate \u2460 score \u22658/10|2026-07-01||AD",
+      "notion_id": "38d357e3-2952-818e-b89f-e7469f6b497f",
+      "title": "\ud83c\udfac Haru Recap Reel \u2014 Gate \u2460 score \u22658/10"
+    },
+    {
+      "event_canon": "\ud83c\udfac Haru Recap Reel \u2014 First-cut review & ship (Stage 4\u20135)|2026-07-03||AD",
+      "event_uid": "7ee53e61-5114-4eaf-bb98-f12d7e643521@notion-apple-cal-sync",
+      "notion_canon": "\ud83c\udfac Haru Recap Reel \u2014 First-cut review & ship (Stage 4\u20135)|2026-07-03||AD",
+      "notion_id": "38d357e3-2952-81e4-bca3-f3ff3efd72f9",
+      "title": "\ud83c\udfac Haru Recap Reel \u2014 First-cut review & ship (Stage 4\u20135)"
+    },
+    {
+      "event_canon": "\ud83c\udfac Haru Recap Reel \u2014 Lock rubric with Steven (Stage 1)|2026-06-29||AD",
+      "event_uid": "baf6428c-8d00-489a-adf0-60f4097671ff@notion-apple-cal-sync",
+      "notion_canon": "\ud83c\udfac Haru Recap Reel \u2014 Lock rubric with Steven (Stage 1)|2026-06-29||AD",
+      "notion_id": "38d357e3-2952-81fd-960a-c9882a4948dc",
+      "title": "\ud83c\udfac Haru Recap Reel \u2014 Lock rubric with Steven (Stage 1)"
+    },
+    {
+      "event_canon": "Verify je.052 credit account path before import|2026-06-30||AD",
+      "event_uid": "9428fb43-f393-4d67-8408-062cd387daaf@notion-apple-cal-sync",
+      "notion_canon": "Verify je.052 credit account path before import|2026-06-30||AD",
+      "notion_id": "38c357e3-2952-81b5-ab32-ed8dae4405d5",
+      "title": "Verify je.052 credit account path before import"
+    },
+    {
+      "event_canon": "Birthday of Reuben|2016-01-16||AD",
+      "event_uid": "465D60AF-D12A-4235-A658-9327FBFC7F4A",
+      "notion_canon": "Birthday of Reuben|2016-01-16||AD",
+      "notion_id": "3a7357e3-2952-8107-8055-d8809ddea61d",
+      "title": "Birthday of Reuben"
+    },
+    {
+      "event_canon": "Census Work|2026-06-26T13:00:00+00:00|2026-06-26T14:00:00+00:00|T",
+      "event_uid": "929BA1C0-9E82-4909-AB89-C6A752751D79",
+      "notion_canon": "Census Work|2026-06-26T13:00:00+00:00|2026-06-26T14:00:00+00:00|T",
+      "notion_id": "3a7357e3-2952-8147-b8e3-d7207669fa13",
+      "title": "Census Work"
+    },
+    {
+      "event_canon": "Govt Unearned|2026-06-26T14:00:00+00:00|2026-06-26T15:00:00+00:00|T",
+      "event_uid": "E2D44288-D9B8-4A43-8938-B069F50E19A6",
+      "notion_canon": "Govt Unearned|2026-06-26T14:00:00+00:00|2026-06-26T15:00:00+00:00|T",
+      "notion_id": "3a7357e3-2952-81c5-b8ba-fdbec1463d2f",
+      "title": "Govt Unearned"
+    },
+    {
+      "event_canon": "Do Census Work|2026-06-28||AD",
+      "event_uid": "10e5874b-1ce0-4db9-9563-7282a7b92363@notion-apple-cal-sync",
+      "notion_canon": "Do Census Work|2026-06-28||AD",
+      "notion_id": "3a7357e3-2952-81fb-97c6-d053c5f6b2b0",
+      "title": "Do Census Work"
+    },
+    {
+      "event_canon": "Add Webclipper|2026-06-28||AD",
+      "event_uid": "745b99ef-b9b2-4a10-87f4-b74fee613e0f@notion-apple-cal-sync",
+      "notion_canon": "Add Webclipper|2026-06-28||AD",
+      "notion_id": "3a7357e3-2952-8182-91b3-ee8fcf165bc0",
+      "title": "Add Webclipper"
+    },
+    {
+      "event_canon": "Create an Auditor Agent|2026-06-29||AD",
+      "event_uid": "310f4255-ae51-48e5-bb99-ce318a48b8af@notion-apple-cal-sync",
+      "notion_canon": "Create an Auditor Agent|2026-06-29||AD",
+      "notion_id": "3a7357e3-2952-8151-acdb-e9f89bd4ac76",
+      "title": "Create an Auditor Agent"
+    },
+    {
+      "event_canon": "Michelle's gift?|2026-06-29||AD",
+      "event_uid": "73bff9a5-27a8-445e-8ee2-5ea00fc0a7ff@notion-apple-cal-sync",
+      "notion_canon": "Michelle's gift?|2026-06-29||AD",
+      "notion_id": "3a7357e3-2952-816b-9953-edd371781fb8",
+      "title": "Michelle's gift? "
+    },
+    {
+      "event_canon": "Call Rotary|2026-06-29||AD",
+      "event_uid": "871609ec-fb5b-4f73-8109-f4329e89b51e@notion-apple-cal-sync",
+      "notion_canon": "Call Rotary|2026-06-29||AD",
+      "notion_id": "3a7357e3-2952-8188-9aa2-c138b59f200c",
+      "title": "Call Rotary"
+    },
+    {
+      "event_canon": "Transfer Venmo|2026-06-29||AD",
+      "event_uid": "b7ce8f00-e1c1-4795-b4fd-0066ce0387bc@notion-apple-cal-sync",
+      "notion_canon": "Transfer Venmo|2026-06-29||AD",
+      "notion_id": "3a7357e3-2952-81cd-9b88-ed24e772c312",
+      "title": "Transfer Venmo "
+    },
+    {
+      "event_canon": "Check TD Bank|2026-06-29||AD",
+      "event_uid": "ccf44eec-3c8f-45ed-bbad-4ba2efbf3057@notion-apple-cal-sync",
+      "notion_canon": "Check TD Bank|2026-06-29||AD",
+      "notion_id": "3a7357e3-2952-813e-bdfa-de8d63960ce7",
+      "title": "Check TD Bank "
+    },
+    {
+      "event_canon": "FOP Lodge Decision|2026-06-29||AD",
+      "event_uid": "cd24a1f3-5b5c-4820-84a6-96a027cee93c@notion-apple-cal-sync",
+      "notion_canon": "FOP Lodge Decision|2026-06-29||AD",
+      "notion_id": "3a7357e3-2952-8104-a3a1-d47bebe33a76",
+      "title": "FOP Lodge Decision"
+    },
+    {
+      "event_canon": "Assist Sangeeta with back-up for Crescent|2026-06-29||AD",
+      "event_uid": "dd47b812-f5a0-4f96-8438-39d9281264c0@notion-apple-cal-sync",
+      "notion_canon": "Assist Sangeeta with back-up for Crescent|2026-06-29||AD",
+      "notion_id": "3a7357e3-2952-8148-b615-dd9f9038d77d",
+      "title": "Assist Sangeeta with back-up for Crescent"
+    },
+    {
+      "event_canon": "Poly Market|2026-06-29||AD",
+      "event_uid": "e859c3e6-2ce5-4fdb-989e-437dda6ec539@notion-apple-cal-sync",
+      "notion_canon": "Poly Market|2026-06-29||AD",
+      "notion_id": "3a7357e3-2952-8134-a3e3-c1a617bcc1c9",
+      "title": "Poly Market "
+    },
+    {
+      "event_canon": "Call M&T Mortgage|2026-06-29||AD",
+      "event_uid": "ef42167e-d44a-464c-bb43-dbf07e94fc0b@notion-apple-cal-sync",
+      "notion_canon": "Call M&T Mortgage|2026-06-29||AD",
+      "notion_id": "3a7357e3-2952-81e7-82a9-e33a858403b6",
+      "title": "Call M&T Mortgage"
+    },
+    {
+      "event_canon": "Gifts for twins?|2026-06-30||AD",
+      "event_uid": "cb6afe35-f960-40cc-bb20-5ae7e1d50254@notion-apple-cal-sync",
+      "notion_canon": "Gifts for twins?|2026-06-30||AD",
+      "notion_id": "3a7357e3-2952-8102-b0a4-eb0df9039bf8",
+      "title": "Gifts for twins? "
+    },
+    {
+      "event_canon": "Check RECON for Sentara|2026-07-01||AD",
+      "event_uid": "21fd3ff2-b2e6-4da8-b259-f80de2115a95@notion-apple-cal-sync",
+      "notion_canon": "Check RECON for Sentara|2026-07-01||AD",
+      "notion_id": "3a7357e3-2952-816e-80cc-ee0f723d8fa9",
+      "title": "Check RECON for Sentara"
+    },
+    {
+      "event_canon": "Check when to renew passport|2026-07-01||AD",
+      "event_uid": "2b183dd2-dc2c-4735-b978-cf9eba30e912@notion-apple-cal-sync",
+      "notion_canon": "Check when to renew passport|2026-07-01||AD",
+      "notion_id": "3a7357e3-2952-8155-9d2b-ed14d4057c59",
+      "title": "Check when to renew passport"
+    },
+    {
+      "event_canon": "Inform Kate re Letters Updated|2026-07-01||AD",
+      "event_uid": "ba894c82-6154-4972-b24b-9cac7bf66f6e@notion-apple-cal-sync",
+      "notion_canon": "Inform Kate re Letters Updated|2026-07-01||AD",
+      "notion_id": "3a7357e3-2952-819b-8156-e47f40915ac5",
+      "title": "Inform Kate re Letters Updated"
+    },
+    {
+      "event_canon": "Renew license|2026-07-01||AD",
+      "event_uid": "fa9b94b3-3100-4b16-bab1-515a644fca48@notion-apple-cal-sync",
+      "notion_canon": "Renew license|2026-07-01||AD",
+      "notion_id": "3a7357e3-2952-8122-ac38-f6cab1416d7f",
+      "title": "Renew license"
+    },
+    {
+      "event_canon": "Pay Sister for lunch or for Ryan?|2026-07-03||AD",
+      "event_uid": "008984be-a76c-46a4-a3ca-ce5e431de4a8@notion-apple-cal-sync",
+      "notion_canon": "Pay Sister for lunch or for Ryan?|2026-07-03||AD",
+      "notion_id": "3a7357e3-2952-81d6-9ea8-c086cdf63fd6",
+      "title": "Pay Sister for lunch or for Ryan? "
+    },
+    {
+      "event_canon": "Transfer for Reuben?|2026-07-03||AD",
+      "event_uid": "30f996ba-be82-4ae5-ad19-2d1c64c621b1@notion-apple-cal-sync",
+      "notion_canon": "Transfer for Reuben?|2026-07-03||AD",
+      "notion_id": "3a7357e3-2952-81a6-93bb-ea171b663fb8",
+      "title": "Transfer for Reuben? "
+    },
+    {
+      "event_canon": "Pay Tayne|2026-07-03||AD",
+      "event_uid": "e4173704-ea3e-4819-b6e5-5c8b0cd4259f@notion-apple-cal-sync",
+      "notion_canon": "Pay Tayne|2026-07-03||AD",
+      "notion_id": "3a7357e3-2952-817c-b9e9-cf777323aaf9",
+      "title": "Pay Tayne"
+    },
+    {
+      "event_canon": "Chart 5 year rev and expenses - shannon excom - reflects through May|2026-07-03||AD",
+      "event_uid": "fe370ce7-0d01-4470-9025-463409186dd0@notion-apple-cal-sync",
+      "notion_canon": "Chart 5 year rev and expenses - shannon excom - reflects through May|2026-07-03||AD",
+      "notion_id": "3a7357e3-2952-814e-ba78-d99b478bc819",
+      "title": "Chart 5 year rev and expenses - shannon excom - reflects through May"
+    },
+    {
+      "event_canon": "Eala Swiatek|2026-07-04T08:30:00+00:00|2026-07-04T09:45:00+00:00|T",
+      "event_uid": "47dbbb79-2f53-4131-84cb-bd699f162871@notion-apple-cal-sync",
+      "notion_canon": "Eala Swiatek|2026-07-04T08:30:00+00:00|2026-07-04T09:45:00+00:00|T",
+      "notion_id": "3a7357e3-2952-81d7-b4a2-e1e0a78d051b",
+      "title": "Eala Swiatek"
+    },
+    {
+      "event_canon": "Jon on Vacation|2026-07-06||AD",
+      "event_uid": "d698e101-5708-44b3-9521-c8ac55e6fdda@notion-apple-cal-sync",
+      "notion_canon": "Jon on Vacation|2026-07-06||AD",
+      "notion_id": "3a7357e3-2952-8144-a1eb-c97870c7f895",
+      "title": "Jon on Vacation"
+    },
+    {
+      "event_canon": "Decide Pickleball|2026-07-06T13:50:00+00:00|2026-07-06T14:20:00+00:00|T",
+      "event_uid": "9faad1ec-49ef-4663-a46e-5d405bcb9ff9@notion-apple-cal-sync",
+      "notion_canon": "Decide Pickleball|2026-07-06T13:50:00+00:00|2026-07-06T14:20:00+00:00|T",
+      "notion_id": "3a7357e3-2952-8110-8002-f8d7a9814057",
+      "title": "Decide Pickleball"
+    },
+    {
+      "event_canon": "Usage|2026-07-06T15:00:00+00:00|2026-07-06T15:30:00+00:00|T",
+      "event_uid": "e722147a-ee2a-4dc0-943d-ab60b64cf219@notion-apple-cal-sync",
+      "notion_canon": "Usage|2026-07-06T15:00:00+00:00|2026-07-06T15:30:00+00:00|T",
+      "notion_id": "3a7357e3-2952-817b-a5af-c29bfee4bd46",
+      "title": "Usage"
+    },
+    {
+      "event_canon": "Help Sangeeta with Fusion|2026-07-07||AD",
+      "event_uid": "4b417979-14dc-4218-b0c3-5bd663cce93c@notion-apple-cal-sync",
+      "notion_canon": "Help Sangeeta with Fusion|2026-07-07||AD",
+      "notion_id": "3a7357e3-2952-8175-8a64-de17e5c28b1c",
+      "title": "Help Sangeeta with Fusion"
+    },
+    {
+      "event_canon": "Review United Folder for any June Cash|2026-07-09||AD",
+      "event_uid": "58a70417-8fe5-4b2e-9f35-71c80f875afe@notion-apple-cal-sync",
+      "notion_canon": "Review United Folder for any June Cash|2026-07-09||AD",
+      "notion_id": "3a7357e3-2952-8188-84c2-d3e2448adba3",
+      "title": "Review United Folder for any June Cash"
+    },
+    {
+      "event_canon": "Order Croissants|2026-07-09||AD",
+      "event_uid": "ea3221b9-83e1-418c-b200-21e857329add@notion-apple-cal-sync",
+      "notion_canon": "Order Croissants|2026-07-09||AD",
+      "notion_id": "3a7357e3-2952-813f-8c51-dfa659281590",
+      "title": "Order Croissants"
+    },
+    {
+      "event_canon": "Call Tayne|2026-07-09||AD",
+      "event_uid": "ebbf959b-1766-4e08-a326-99b573e98cab@notion-apple-cal-sync",
+      "notion_canon": "Call Tayne|2026-07-09||AD",
+      "notion_id": "3a7357e3-2952-8194-a795-e9252b8186d8",
+      "title": "Call Tayne"
+    },
+    {
+      "event_canon": "Pay Ally|2026-07-09||AD",
+      "event_uid": "f8e22bdf-a226-42f8-936d-4a8fcd661dd8@notion-apple-cal-sync",
+      "notion_canon": "Pay Ally|2026-07-09||AD",
+      "notion_id": "3a7357e3-2952-8114-bd95-dcac01d2e1e9",
+      "title": "Pay Ally"
+    },
+    {
+      "event_canon": "Pay Ally auto loan \u2014 $173.19 PAST DUE (2013 Ford C-Max; next $133.23 due Aug 6)|2026-07-10||AD",
+      "event_uid": "06250169-7a85-4f74-a735-2957a84cc824@notion-apple-cal-sync",
+      "notion_canon": "Pay Ally auto loan \u2014 $173.19 PAST DUE (2013 Ford C-Max; next $133.23 due Aug 6)|2026-07-10||AD",
+      "notion_id": "3a7357e3-2952-8143-9662-ff182a51ff25",
+      "title": "Pay Ally auto loan \u2014 $173.19 PAST DUE (2013 Ford C-Max; next $133.23 due Aug 6)"
+    },
+    {
+      "event_canon": "For Kate - prepare Prepaid Report for 6/30|2026-07-10||AD",
+      "event_uid": "070d3266-16b5-4708-a845-33f870b59200@notion-apple-cal-sync",
+      "notion_canon": "For Kate - prepare Prepaid Report for 6/30|2026-07-10||AD",
+      "notion_id": "3a7357e3-2952-8164-8a38-f98ac6a12c11",
+      "title": "For Kate - prepare Prepaid Report for 6/30"
+    },
+    {
+      "event_canon": "Pay Fairfax Water \u2014 $237.42, scheduled 7/10 (confirm it clears)|2026-07-10||AD",
+      "event_uid": "114e5054-6e5f-4ef1-ad29-c24433b76f95@notion-apple-cal-sync",
+      "notion_canon": "Pay Fairfax Water \u2014 $237.42, scheduled 7/10 (confirm it clears)|2026-07-10||AD",
+      "notion_id": "3a7357e3-2952-811e-9c3c-c1fa3801632f",
+      "title": "Pay Fairfax Water \u2014 $237.42, scheduled 7/10 (confirm it clears)"
+    },
+    {
+      "event_canon": "Pay NOVEC electric \u2014 $325.15 PAST DUE (orig. $158.29 never cleared)|2026-07-10||AD",
+      "event_uid": "467e84c4-2d36-4a38-937e-3e7b124aa5d2@notion-apple-cal-sync",
+      "notion_canon": "Pay NOVEC electric \u2014 $325.15 PAST DUE (orig. $158.29 never cleared)|2026-07-10||AD",
+      "notion_id": "3a7357e3-2952-8155-885b-d12d3380fcac",
+      "title": "Pay NOVEC electric \u2014 $325.15 PAST DUE (orig. $158.29 never cleared)"
+    },
+    {
+      "event_canon": "For Kate - Enter WC amorht but check recon|2026-07-10||AD",
+      "event_uid": "cc381c20-a478-4995-bd6f-9c990153c7c3@notion-apple-cal-sync",
+      "notion_canon": "For Kate - Enter WC amorht but check recon|2026-07-10||AD",
+      "notion_id": "3a7357e3-2952-8107-aaa0-dbaa7e5280b9",
+      "title": "For Kate - Enter WC amorht but check recon"
+    },
+    {
+      "event_canon": "Pay Ally for August|2026-07-10||AD",
+      "event_uid": "d49a49a8-60e4-4bff-9010-62cde77ed059@notion-apple-cal-sync",
+      "notion_canon": "Pay Ally for August|2026-07-10||AD",
+      "notion_id": "3a7357e3-2952-81eb-a854-ff1225f2833e",
+      "title": "Pay Ally for August"
+    },
+    {
+      "event_canon": "Appointment \u2014 Ms. Tayne call (SBA EIDL liability)|2026-07-10T11:30:00+00:00|2026-07-10T12:00:00+00:00|T",
+      "event_uid": "eb26db4d-4bcf-4926-950d-4f16ff8d9a39@notion-apple-cal-sync",
+      "notion_canon": "Appointment \u2014 Ms. Tayne call (SBA EIDL liability)|2026-07-10T11:30:00+00:00|2026-07-10T12:00:00+00:00|T",
+      "notion_id": "3a7357e3-2952-81ea-bd63-dadd9d3a13b4",
+      "title": "Appointment \u2014 Ms. Tayne call (SBA EIDL liability)"
+    },
+    {
+      "event_canon": "Do Agent Arnold|2026-07-11||AD",
+      "event_uid": "4d0ce825-6fde-4b31-8b63-5fa35bfb36f4@notion-apple-cal-sync",
+      "notion_canon": "Do Agent Arnold|2026-07-11||AD",
+      "notion_id": "3a7357e3-2952-81ba-8712-f446785a63bd",
+      "title": "Do Agent Arnold"
+    },
+    {
+      "event_canon": "Do timesheet|2026-07-11T09:00:00+00:00|2026-07-11T09:30:00+00:00|T",
+      "event_uid": "660baebe-b4f0-4215-951c-cf7daa6997e4@notion-apple-cal-sync",
+      "notion_canon": "Do timesheet|2026-07-11T09:00:00+00:00|2026-07-11T09:30:00+00:00|T",
+      "notion_id": "3a7357e3-2952-8194-9fd7-c48ae063a997",
+      "title": "Do timesheet"
+    },
+    {
+      "event_canon": "Set up Ivey \u2014 Polymarket agent|2026-07-11T13:00:00+00:00|2026-07-11T16:55:00+00:00|T",
+      "event_uid": "B49B5158-8514-4B32-A7AF-D2BCF19997B9",
+      "notion_canon": "Set up Ivey \u2014 Polymarket agent|2026-07-11T13:00:00+00:00|2026-07-11T16:55:00+00:00|T",
+      "notion_id": "3a7357e3-2952-81d1-a9ef-c6f0a41161fa",
+      "title": "Set up Ivey \u2014 Polymarket agent"
+    },
+    {
+      "event_canon": "Resume building|2026-07-11T14:00:00+00:00|2026-07-11T14:30:00+00:00|T",
+      "event_uid": "29358f39-dae3-4b3b-b45a-1fa78671371b@notion-apple-cal-sync",
+      "notion_canon": "Resume building|2026-07-11T14:00:00+00:00|2026-07-11T14:30:00+00:00|T",
+      "notion_id": "3a7357e3-2952-81c8-b1b4-f387a5dc2546",
+      "title": "Resume building"
+    },
+    {
+      "event_canon": "Dashboard for Cornerstones|2026-07-11T15:00:00+00:00|2026-07-11T15:30:00+00:00|T",
+      "event_uid": "41eeff79-2405-4e9f-ba23-0faea5824626@notion-apple-cal-sync",
+      "notion_canon": "Dashboard for Cornerstones|2026-07-11T15:00:00+00:00|2026-07-11T15:30:00+00:00|T",
+      "notion_id": "3a7357e3-2952-819a-82d3-ea3904c04caa",
+      "title": "Dashboard for Cornerstones"
+    },
+    {
+      "event_canon": "Set up Arnold \u2014 cybersecurity agent|2026-07-11T16:00:00+00:00|2026-07-11T16:30:00+00:00|T",
+      "event_uid": "5754ccf0-3689-483e-a04d-b22f91e265c1@notion-apple-cal-sync",
+      "notion_canon": "Set up Arnold \u2014 cybersecurity agent|2026-07-11T16:00:00+00:00|2026-07-11T16:30:00+00:00|T",
+      "notion_id": "3a7357e3-2952-81d5-a343-d1e21af41c5a",
+      "title": "Set up Arnold \u2014 cybersecurity agent"
+    },
+    {
+      "event_canon": "Set up Ivey \u2014 Polymarket agent|2026-07-11T17:00:00+00:00|2026-07-11T17:30:00+00:00|T",
+      "event_uid": "a371420c-669b-4959-a4db-eb1edc08cbbe@notion-apple-cal-sync",
+      "notion_canon": "Set up Ivey \u2014 Polymarket agent|2026-07-11T17:00:00+00:00|2026-07-11T17:30:00+00:00|T",
+      "notion_id": "3a7357e3-2952-810a-b43a-e88e2fbafc7a",
+      "title": "Set up Ivey \u2014 Polymarket agent"
+    },
+    {
+      "event_canon": "setup notion calendar|2026-07-11T17:00:00+00:00|2026-07-11T21:55:00+00:00|T",
+      "event_uid": "CC8422A7-12A2-4BFC-B0AB-CA9C70835D3B",
+      "notion_canon": "setup notion calendar|2026-07-11T17:00:00+00:00|2026-07-11T21:55:00+00:00|T",
+      "notion_id": "3a7357e3-2952-814c-aaf2-c42dbff0c42e",
+      "title": "setup notion calendar "
+    },
+    {
+      "event_canon": "GitHub work \u2014 highest-star repos|2026-07-11T18:00:00+00:00|2026-07-11T18:30:00+00:00|T",
+      "event_uid": "26080b2f-c39e-4611-a127-4682a87dbef2@notion-apple-cal-sync",
+      "notion_canon": "GitHub work \u2014 highest-star repos|2026-07-11T18:00:00+00:00|2026-07-11T18:30:00+00:00|T",
+      "notion_id": "3a7357e3-2952-811b-b422-d0a7e509c2e5",
+      "title": "GitHub work \u2014 highest-star repos"
+    },
+    {
+      "event_canon": "Set-up Agents|2026-07-11T22:15:00+00:00|2026-07-11T23:55:00+00:00|T",
+      "event_uid": "6B5A1CC9-FFFA-430C-AAA2-9732A23D71AC",
+      "notion_canon": "Set-up Agents|2026-07-11T22:15:00+00:00|2026-07-11T23:55:00+00:00|T",
+      "notion_id": "3a7357e3-2952-8160-8d11-fcca0f1f098a",
+      "title": "Set-up Agents"
+    },
+    {
+      "event_canon": "Dashboard for Cornerstones|2026-07-12T00:00:00+00:00|2026-07-12T01:00:00+00:00|T",
+      "event_uid": "2885C343-5C88-463A-BEB8-DC534274EB92",
+      "notion_canon": "Dashboard for Cornerstones|2026-07-12T00:00:00+00:00|2026-07-12T01:00:00+00:00|T",
+      "notion_id": "3a7357e3-2952-81f0-a2db-f08f5fee47eb",
+      "title": "Dashboard for Cornerstones"
+    },
+    {
+      "event_canon": "Set up content management blog (personal)|2026-07-12T10:00:00+00:00|2026-07-12T10:30:00+00:00|T",
+      "event_uid": "02a368a4-ec8b-4d7b-a8b6-5aaccc945991@notion-apple-cal-sync",
+      "notion_canon": "Set up content management blog (personal)|2026-07-12T10:00:00+00:00|2026-07-12T10:30:00+00:00|T",
+      "notion_id": "3a7357e3-2952-81ad-a055-d3fe56ac0e1f",
+      "title": "Set up content management blog (personal)"
+    },
+    {
+      "event_canon": "Set up content management blog (personal)|2026-07-12T10:00:00+00:00|2026-07-12T11:00:00+00:00|T",
+      "event_uid": "5E43F6EE-6EFE-4ABC-ACF1-0D9563D57575",
+      "notion_canon": "Set up content management blog (personal)|2026-07-12T10:00:00+00:00|2026-07-12T11:00:00+00:00|T",
+      "notion_id": "3a7357e3-2952-8199-8f98-cd9b6d790646",
+      "title": "Set up content management blog (personal)"
+    },
+    {
+      "event_canon": "Set up Ivey \u2014 Polymarket agent|2026-07-12T12:45:00+00:00|2026-07-12T13:45:00+00:00|T",
+      "event_uid": "BB3F3C49-AD95-4707-A6C8-01E1AA849E4C",
+      "notion_canon": "Set up Ivey \u2014 Polymarket agent|2026-07-12T12:45:00+00:00|2026-07-12T13:45:00+00:00|T",
+      "notion_id": "3a7357e3-2952-8172-8bdf-d7f59a7189be",
+      "title": "Set up Ivey \u2014 Polymarket agent"
+    },
+    {
+      "event_canon": "GitHub work \u2014 highest-star repos|2026-07-12T15:30:00+00:00|2026-07-12T16:30:00+00:00|T",
+      "event_uid": "2E56BDB6-7967-4BCC-BA61-7D233A33C580",
+      "notion_canon": "GitHub work \u2014 highest-star repos|2026-07-12T15:30:00+00:00|2026-07-12T16:30:00+00:00|T",
+      "notion_id": "3a7357e3-2952-819f-acc7-d436c6630330",
+      "title": "GitHub work \u2014 highest-star repos"
+    },
+    {
+      "event_canon": "Resume building|2026-07-12T17:00:00+00:00|2026-07-12T18:00:00+00:00|T",
+      "event_uid": "5BE6444A-AFE3-4711-BFA5-4CFA3E1557C9",
+      "notion_canon": "Resume building|2026-07-12T17:00:00+00:00|2026-07-12T18:00:00+00:00|T",
+      "notion_id": "3a7357e3-2952-811e-a074-dbda9d0a658e",
+      "title": "Resume building"
+    },
+    {
+      "event_canon": "Set up Arnold \u2014 cybersecurity agent|2026-07-12T18:45:00+00:00|2026-07-12T19:45:00+00:00|T",
+      "event_uid": "D5C4F375-332D-4E95-9776-8C9ACF102C07",
+      "notion_canon": "Set up Arnold \u2014 cybersecurity agent|2026-07-12T18:45:00+00:00|2026-07-12T19:45:00+00:00|T",
+      "notion_id": "3a7357e3-2952-8193-83f3-c4c2324667c7",
+      "title": "Set up Arnold \u2014 cybersecurity agent"
+    },
+    {
+      "event_canon": "Update Due to Others Recon|2026-07-13||AD",
+      "event_uid": "6a8368ce-5716-47f9-869e-369fbc3b3144@notion-apple-cal-sync",
+      "notion_canon": "Update Due to Others Recon|2026-07-13||AD",
+      "notion_id": "3a7357e3-2952-813b-a5f6-c89ee116e2a1",
+      "title": "Update Due to Others Recon"
+    },
+    {
+      "event_canon": "Do JE for S Damper for $190|2026-07-13||AD",
+      "event_uid": "8faa03af-17a9-4453-9456-2827e2e9215f@notion-apple-cal-sync",
+      "notion_canon": "Do JE for S Damper for $190|2026-07-13||AD",
+      "notion_id": "3a7357e3-2952-81a2-a032-e6b8b63e43a7",
+      "title": "Do JE for S Damper for $190"
+    },
+    {
+      "event_canon": "Bank Recon|2026-07-13T22:00:00+00:00|2026-07-14T00:30:00+00:00|T",
+      "event_uid": "EAF70329-76F0-4F90-A597-BF0E9D0B023D",
+      "notion_canon": "Bank Recon|2026-07-13T22:00:00+00:00|2026-07-14T00:30:00+00:00|T",
+      "notion_id": "3a7357e3-2952-8107-95ba-e53dc067b368",
+      "title": "Bank Recon"
+    },
+    {
+      "event_canon": "Bank recon 4544|2026-07-14||AD",
+      "event_uid": "500d4409-5aa9-4551-a08e-4a00b924ad24@notion-apple-cal-sync",
+      "notion_canon": "Bank recon 4544|2026-07-14||AD",
+      "notion_id": "3a7357e3-2952-81bf-a4ec-d86db10b1bca",
+      "title": "Bank recon 4544"
+    },
+    {
+      "event_canon": "Security hardening: tighten Mac tool permissions|2026-07-18||AD",
+      "event_uid": "740615f0-6d0a-4f83-9e4e-5390012b41f4@notion-apple-cal-sync",
+      "notion_canon": "Security hardening: tighten Mac tool permissions|2026-07-18||AD",
+      "notion_id": "3a7357e3-2952-81cb-95fe-e72c2e4e696f",
+      "title": "Security hardening: tighten Mac tool permissions"
+    },
+    {
+      "event_canon": "Jasmine|2026-07-21T19:30:00+00:00|2026-07-21T20:30:00+00:00|T",
+      "event_uid": "DFB69550-3558-47E8-BC75-BCB4084534D2",
+      "notion_canon": "Jasmine|2026-07-21T19:30:00+00:00|2026-07-21T20:30:00+00:00|T",
+      "notion_id": "3a7357e3-2952-81aa-b159-deaf41d4ca57",
+      "title": "Jasmine "
+    },
+    {
+      "event_canon": "Burn Weavy + CapCut credits before they expire|2026-07-23||AD",
+      "event_uid": "96a0971f-97a2-410f-b8ec-f35963d06fcb@notion-apple-cal-sync",
+      "notion_canon": "Burn Weavy + CapCut credits before they expire|2026-07-23||AD",
+      "notion_id": "3a7357e3-2952-8167-ae82-e2e3bd407a1f",
+      "title": "Burn Weavy + CapCut credits before they expire"
+    },
+    {
+      "event_canon": "Bank Recon|2026-07-23T15:45:00+00:00|2026-07-23T18:00:00+00:00|T",
+      "event_uid": "67A75D03-EC1F-4F26-B2B6-9C193207C436",
+      "notion_canon": "Bank Recon|2026-07-23T15:45:00+00:00|2026-07-23T18:00:00+00:00|T",
+      "notion_id": "3a7357e3-2952-8150-bb98-c3204c0d3d0b",
+      "title": "Bank Recon"
+    },
+    {
+      "event_canon": "Viral AI Factory|2026-07-23T21:00:00+00:00|2026-07-23T22:00:00+00:00|T",
+      "event_uid": "C37BE4BB-9F65-4940-8FD6-D1D2484083E8",
+      "notion_canon": "Viral AI Factory|2026-07-23T21:00:00+00:00|2026-07-23T22:00:00+00:00|T",
+      "notion_id": "3a7357e3-2952-81be-8eb9-ec622b98b06f",
+      "title": "Viral AI Factory"
+    },
+    {
+      "event_canon": "Deposit ACH App|2026-07-23T22:15:00+00:00|2026-07-23T23:15:00+00:00|T",
+      "event_uid": "E399B88F-04EB-4437-8FC7-1B55CCF47FB7",
+      "notion_canon": "Deposit ACH App|2026-07-23T22:15:00+00:00|2026-07-23T23:15:00+00:00|T",
+      "notion_id": "3a7357e3-2952-81b9-9f52-e9d9692b957c",
+      "title": "Deposit ACH App"
+    },
+    {
+      "event_canon": "Renew VA driver's license (expires 9/4/26)|2026-07-24||AD",
+      "event_uid": "6637bd33-6450-4a91-9d93-5866a36e360d@notion-apple-cal-sync",
+      "notion_canon": "Renew VA driver's license (expires 9/4/26)|2026-07-24||AD",
+      "notion_id": "3a7357e3-2952-8182-96a4-ec4fdbd11f37",
+      "title": "Renew VA driver's license (expires 9/4/26)"
+    },
+    {
+      "event_canon": "Pay AMEX $68.85 (due 7/26)|2026-07-24||AD",
+      "event_uid": "a154a3b5-f4ac-4275-bbc5-f38839c6093d@notion-apple-cal-sync",
+      "notion_canon": "Pay AMEX $68.85 (due 7/26)|2026-07-24||AD",
+      "notion_id": "3a7357e3-2952-8101-92f8-de014d85c4d3",
+      "title": "Pay AMEX $68.85 (due 7/26)"
+    },
+    {
+      "event_canon": "Prediction Market|2026-07-24T01:15:00+00:00|2026-07-24T02:15:00+00:00|T",
+      "event_uid": "1D356FD1-9887-4744-9810-C3B1B09E7ECA",
+      "notion_canon": "Prediction Market|2026-07-24T01:15:00+00:00|2026-07-24T02:15:00+00:00|T",
+      "notion_id": "3a7357e3-2952-81d6-af7a-ec50c91dc066",
+      "title": "Prediction Market"
+    },
+    {
+      "event_canon": "HOA \u2014 Pay quarterly dues $246 (Winding Ridge, Acct WRH36472)|2026-07-30||AD",
+      "event_uid": "3be5ff20-2f6d-4adc-85b4-7434a5800225@notion-apple-cal-sync",
+      "notion_canon": "HOA \u2014 Pay quarterly dues $246 (Winding Ridge, Acct WRH36472)|2026-07-30||AD",
+      "notion_id": "3a7357e3-2952-81a5-8db4-e2d4227de398",
+      "title": "HOA \u2014 Pay quarterly dues $246 (Winding Ridge, Acct WRH36472)"
+    },
+    {
+      "event_canon": "Pay Washington Gas \u2014 $113.49, due 7/31 (autopay NOT enrolled)|2026-07-31||AD",
+      "event_uid": "e043978b-0d48-4029-b2ff-e92984597421@notion-apple-cal-sync",
+      "notion_canon": "Pay Washington Gas \u2014 $113.49, due 7/31 (autopay NOT enrolled)|2026-07-31||AD",
+      "notion_id": "3a7357e3-2952-8103-a130-e77a0a2f3c08",
+      "title": "Pay Washington Gas \u2014 $113.49, due 7/31 (autopay NOT enrolled)"
+    },
+    {
+      "event_canon": "Lifetime \u2014 $159/mo, auto-billed on the 1st, current (no action needed)|2026-08-01||AD",
+      "event_uid": "43fea450-4daa-4d7d-b92d-8aa884ac21ff@notion-apple-cal-sync",
+      "notion_canon": "Lifetime \u2014 $159/mo, auto-billed on the 1st, current (no action needed)|2026-08-01||AD",
+      "notion_id": "3a7357e3-2952-81e6-bc91-fe11d75fa76d",
+      "title": "Lifetime \u2014 $159/mo, auto-billed on the 1st, current (no action needed)"
+    },
+    {
+      "event_canon": "Mercer Trigiani \u2014 HOA payment plan (Acct WRH36472)|2026-08-25||AD",
+      "event_uid": "0975527c-3663-4911-ad45-5ac12e9ef3c8@notion-apple-cal-sync",
+      "notion_canon": "Mercer Trigiani \u2014 HOA payment plan (Acct WRH36472)|2026-08-25||AD",
+      "notion_id": "3a7357e3-2952-81d6-8797-fef093575edb",
+      "title": "Mercer Trigiani \u2014 HOA payment plan (Acct WRH36472)"
+    },
+    {
+      "event_canon": "HOA \u2014 Arrears payment 1/9: $150 (bal $1,195.25)|2026-08-30||AD",
+      "event_uid": "04e6af51-a75f-4c42-81f3-738067fed9b8@notion-apple-cal-sync",
+      "notion_canon": "HOA \u2014 Arrears payment 1/9: $150 (bal $1,195.25)|2026-08-30||AD",
+      "notion_id": "3a7357e3-2952-8151-8808-e5a8bab362da",
+      "title": "HOA \u2014 Arrears payment 1/9: $150 (bal $1,195.25)"
+    },
+    {
+      "event_canon": "HOA \u2014 Arrears payment 2/9: $150 (bal $1,045.25)|2026-09-30||AD",
+      "event_uid": "4c7a4540-738f-4499-9cf0-a645ecf6cb92@notion-apple-cal-sync",
+      "notion_canon": "HOA \u2014 Arrears payment 2/9: $150 (bal $1,045.25)|2026-09-30||AD",
+      "notion_id": "3a7357e3-2952-810e-9a9b-fb32bcee0e4f",
+      "title": "HOA \u2014 Arrears payment 2/9: $150 (bal $1,045.25)"
+    },
+    {
+      "event_canon": "HOA \u2014 Arrears payment 3/9: $150 (bal $895.25)|2026-10-30||AD",
+      "event_uid": "3910b818-1af8-4f3b-a11b-114b4ed3028e@notion-apple-cal-sync",
+      "notion_canon": "HOA \u2014 Arrears payment 3/9: $150 (bal $895.25)|2026-10-30||AD",
+      "notion_id": "3a7357e3-2952-81eb-9e45-da09ba6fa2a7",
+      "title": "HOA \u2014 Arrears payment 3/9: $150 (bal $895.25)"
+    },
+    {
+      "event_canon": "HOA \u2014 Arrears payment 4/9: $150 (bal $745.25)|2026-11-30||AD",
+      "event_uid": "c04d023f-56f4-4042-a1fb-cfa699733f83@notion-apple-cal-sync",
+      "notion_canon": "HOA \u2014 Arrears payment 4/9: $150 (bal $745.25)|2026-11-30||AD",
+      "notion_id": "3a7357e3-2952-8121-80fa-f54cfef3d557",
+      "title": "HOA \u2014 Arrears payment 4/9: $150 (bal $745.25)"
+    },
+    {
+      "event_canon": "HOA \u2014 Arrears payment 5/9: $150 (bal $595.25)|2026-12-30||AD",
+      "event_uid": "79b89974-4dff-4d75-8513-2642a24c4def@notion-apple-cal-sync",
+      "notion_canon": "HOA \u2014 Arrears payment 5/9: $150 (bal $595.25)|2026-12-30||AD",
+      "notion_id": "3a7357e3-2952-817c-85e6-f80e4cde11cf",
+      "title": "HOA \u2014 Arrears payment 5/9: $150 (bal $595.25)"
+    }
+  ]
 }
