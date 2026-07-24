@@ -7,8 +7,11 @@ How it works each run:
   2. Read all dated Notion pages and all Apple events in the time window.
   3. For every existing link, detect what changed and propagate it. If both
      sides changed (a conflict), the side with the newer modification time wins.
-  4. New Notion pages become Apple events; new Apple events become Notion pages.
-  5. Save the updated mapping store.
+  4. Adopt pre-existing matches: an unlinked Notion item and an unlinked Apple
+     item with the same fingerprint are the SAME event already present on both
+     sides -- link them instead of creating a duplicate.
+  5. New Notion pages become Apple events; new Apple events become Notion pages.
+  6. Save the updated mapping store.
 
 Safety:
   * ALLOW_DELETES defaults to False. When off, a deletion on one side is treated
@@ -192,6 +195,39 @@ def main():
 
         lk["title"] = n["title"]
         new_links.append(lk)
+
+    # 1.5) Adopt pre-existing matches (NO writes).
+    # An unlinked Notion item and an unlinked Apple item with the same
+    # fingerprint are the same event already present on both sides. Link them
+    # rather than creating a second copy. This is what makes a repoint / state
+    # reset safe: without it, every task that already exists on both sides would
+    # be duplicated on the first run.
+    apple_by_canon = {}
+    for i in apple_items:
+        if i["uid"] in linked_uids:
+            continue
+        apple_by_canon.setdefault(canon(i), i)  # first Apple event wins on ties
+
+    adopted = 0
+    for i in notion_items:
+        if i["page_id"] in linked_pages:
+            continue
+        c = canon(i)
+        a = apple_by_canon.get(c)
+        if a is None or a["uid"] in linked_uids:
+            continue
+        new_links.append({
+            "notion_id": i["page_id"],
+            "event_uid": a["uid"],
+            "notion_canon": c,
+            "event_canon": c,
+            "title": i["title"],
+        })
+        linked_pages.add(i["page_id"])
+        linked_uids.add(a["uid"])
+        adopted += 1
+    if adopted:
+        log(f"adopted {adopted} pre-existing pair(s) — linked without writing")
 
     # 2) New Notion pages -> Apple.
     for i in notion_items:
