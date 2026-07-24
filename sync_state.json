@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-07-24T01:12:13.870954+00:00",
+  "last_run": "2026-07-24T04:39:49.786681+00:00",
   "links": [
     {
       "event_canon": "Set up content management blog (personal)|2026-07-12T10:00:00+00:00|2026-07-12T10:30:00+00:00|T",
@@ -325,35 +325,35 @@
     },
     {
       "event_canon": "Kate Prepaid Recon|2026-06-22T11:00:00+00:00|2026-06-22T12:00:00+00:00|T",
-      "event_uid": "ec0ca8eb-c5fb-43c7-99fc-12ae5fe74bb5@notion-apple-cal-sync",
+      "event_uid": "fee61bdd-da81-459c-bf04-cfa399753669@notion-apple-cal-sync",
       "notion_canon": "Kate Prepaid Recon|2026-06-22T11:00:00+00:00|2026-06-22T12:00:00+00:00|T",
       "notion_id": "39b357e3-2952-81e7-b569-c1c9622338e8",
       "title": "Kate Prepaid Recon"
     },
     {
       "event_canon": "3. From Kate -Letter In Kind Rent and Gift Card\n4. From Kate - PR Cents SUTA Disparity|2026-06-22T11:00:00+00:00|2026-06-22T12:00:00+00:00|T",
-      "event_uid": "e264479e-1b0b-4131-b442-13dfac092b07@notion-apple-cal-sync",
+      "event_uid": "a2d00c6d-ed0e-4fb1-85ee-236ac2e0c47a@notion-apple-cal-sync",
       "notion_canon": "3. From Kate -Letter In Kind Rent and Gift Card\n4. From Kate - PR Cents SUTA Disparity|2026-06-22T11:00:00+00:00|2026-06-22T12:00:00+00:00|T",
       "notion_id": "39b357e3-2952-812c-a125-e22c63cea12e",
       "title": "3. From Kate -Letter In Kind Rent and Gift Card\n4. From Kate - PR Cents SUTA Disparity"
     },
     {
       "event_canon": "Meeting with Kate to fix Santara Messi post fix Blasa Condori and CHC create JE for accrued due to other parties|2026-06-22T14:00:00+00:00|2026-06-22T15:00:00+00:00|T",
-      "event_uid": "1633cb42-843d-4942-a201-13bb1e80b491@notion-apple-cal-sync",
+      "event_uid": "90dd6b73-4871-45ef-a394-301cdf3be5b8@notion-apple-cal-sync",
       "notion_canon": "Meeting with Kate to fix Santara Messi post fix Blasa Condori and CHC create JE for accrued due to other parties|2026-06-22T14:00:00+00:00|2026-06-22T15:00:00+00:00|T",
       "notion_id": "39b357e3-2952-81a2-b141-f2740ad8da39",
       "title": "Meeting with Kate to fix Santara Messi post fix Blasa Condori and CHC create JE for accrued due to other parties "
     },
     {
       "event_canon": "Mercury Bank issue|2026-06-22T16:30:00+00:00|2026-06-22T17:30:00+00:00|T",
-      "event_uid": "fc823299-b13a-4b74-bdbe-44462340b87d@notion-apple-cal-sync",
+      "event_uid": "1fc77a54-ad8e-44da-912e-7a906d46da81@notion-apple-cal-sync",
       "notion_canon": "Mercury Bank issue|2026-06-22T16:30:00+00:00|2026-06-22T17:30:00+00:00|T",
       "notion_id": "39b357e3-2952-810b-9930-d4d9456b1951",
       "title": "Mercury Bank issue"
     },
     {
       "event_canon": "Kate Insurance Report|2026-06-22T16:30:00+00:00|2026-06-22T17:30:00+00:00|T",
-      "event_uid": "6af8f58f-de66-4348-b553-24f40d750120@notion-apple-cal-sync",
+      "event_uid": "463e5b43-0a67-4bdd-b7d3-38cab65ca405@notion-apple-cal-sync",
       "notion_canon": "Kate Insurance Report|2026-06-22T16:30:00+00:00|2026-06-22T17:30:00+00:00|T",
       "notion_id": "39b357e3-2952-8196-89cc-e56e2c626d96",
       "title": "Kate Insurance Report"
@@ -574,6 +574,13 @@
       "notion_canon": "Deposit ACH App|2026-07-23T22:15:00+00:00|2026-07-23T23:15:00+00:00|T",
       "notion_id": "3a6357e3-2952-815a-9169-f64b564cb118",
       "title": "Deposit ACH App"
+    },
+    {
+      "event_canon": "Prediction Market|2026-07-24T01:15:00+00:00|2026-07-24T02:15:00+00:00|T",
+      "event_uid": "1D356FD1-9887-4744-9810-C3B1B09E7ECA",
+      "notion_canon": "Prediction Market|2026-07-24T01:15:00+00:00|2026-07-24T02:15:00+00:00|T",
+      "notion_id": "3a7357e3-2952-8160-b5bc-fbb852342dab",
+      "title": "Prediction Market"
     }
   ]
 }
