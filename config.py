@@ -5,11 +5,13 @@ coming from GitHub Actions (unset `vars`) fall back to the defaults.
 """
 import os
 
-# Jon's Life OS -> Tasks database, and its data source (collection).
-# Both are defaulted so the sync works without extra secrets. Notion's newer API
-# queries the DATA SOURCE, not the database, so we keep both.
-DEFAULT_DATABASE_ID = "d3406f60b6654bb48ff38b90cbea34b7"
-DEFAULT_DATA_SOURCE_ID = "4f410f8d-6133-49dd-a7d8-07c81a5b7c1e"
+# Jon's Life OS -> Agent Kanban tasks database, and its data source (collection).
+# Repointed 2026-07-24: the previous default (d3406f60 / 4f410f8d) is now the
+# retired "XXX- Archive Tasks" database. Live tasks are in "Agent Kanban".
+# Notion's newer API queries the DATA SOURCE, not the database, so we keep both.
+# To override without editing code, set NOTION_DATABASE_ID / NOTION_DATA_SOURCE_ID.
+DEFAULT_DATABASE_ID = "9de9329a2e8d4cea8b6a56fca7583d3c"
+DEFAULT_DATA_SOURCE_ID = "01d9a0e6-1da5-47fd-96c3-b26eadc88114"
 
 
 def _s(name, default=""):
