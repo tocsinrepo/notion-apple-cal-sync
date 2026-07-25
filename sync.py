@@ -17,6 +17,7 @@ Safety:
   * ALLOW_DELETES defaults to False. When off, a deletion on one side is treated
     as "recreate from the other side" instead of deleting data.
   * DRY_RUN=True logs everything but writes nothing.
+  * Both sides are restricted to the SAME time window. See _in_window().
 """
 import datetime as dt
 
@@ -44,6 +45,28 @@ def _utc(value):
     if d.tzinfo is None:
         d = d.replace(tzinfo=tz.gettz(Config.APPLE_TZ))
     return d.astimezone(dt.timezone.utc).replace(microsecond=0)
+
+
+def _in_window(item):
+    """Is this item inside the window apple_side.fetch_events() actually reads?
+
+    This exists because the two sides used to disagree. The Apple side has
+    always read a bounded window (WINDOW_PAST_DAYS / WINDOW_FUTURE_DAYS); the
+    Notion side read EVERY dated page. A Notion task dated beyond the window
+    therefore had a link whose Apple event was never in `apple_items`, so every
+    run concluded the event had been deleted and recreated it — one fresh
+    duplicate per run, forever. Anything outside the window is now deferred
+    instead: left exactly as it is until it drifts into range.
+    """
+    now = dt.datetime.now(tz=tz.gettz(Config.APPLE_TZ))
+    lo = (now - dt.timedelta(days=Config.WINDOW_PAST_DAYS)).date()
+    hi = (now + dt.timedelta(days=Config.WINDOW_FUTURE_DAYS)).date()
+    try:
+        d = dtparser.isoparse(str(item.get("start")))
+    except (ValueError, TypeError):
+        return True  # unparseable — treat as in range rather than silently skip
+    d = d.date() if isinstance(d, dt.datetime) else d
+    return lo <= d <= hi
 
 
 def canon(item):
@@ -102,9 +125,13 @@ def main():
     cal = ap.connect()
     log("using calendar:", getattr(cal, "name", "?"))
 
-    notion_items = ns.fetch_pages()
+    all_notion = ns.fetch_pages()
+    notion_items = [i for i in all_notion if _in_window(i)]
+    deferred = {i["page_id"] for i in all_notion if not _in_window(i)}
     apple_items = ap.fetch_events(cal)
-    log(f"notion pages: {len(notion_items)}   apple events: {len(apple_items)}")
+    log(f"notion pages: {len(notion_items)} in window "
+        f"({len(deferred)} deferred outside ±{Config.WINDOW_PAST_DAYS}/"
+        f"{Config.WINDOW_FUTURE_DAYS}d)   apple events: {len(apple_items)}")
 
     by_page = {i["page_id"]: i for i in notion_items}
     by_uid = {i["uid"]: i for i in apple_items}
@@ -118,6 +145,17 @@ def main():
     for lk in links:
         pid = lk.get("notion_id")
         uid = lk.get("event_uid")
+
+        # Out of range on the Notion side: the Apple event is out of range too,
+        # so neither side can be compared this run. Carry the link forward
+        # untouched. Skipping this check is what produced the duplicate storm.
+        if pid in deferred:
+            linked_pages.add(pid)
+            if uid:
+                linked_uids.add(uid)
+            new_links.append(lk)
+            continue
+
         n = by_page.get(pid)
         a = by_uid.get(uid)
 
@@ -229,7 +267,7 @@ def main():
     if adopted:
         log(f"adopted {adopted} pre-existing pair(s) — linked without writing")
 
-    # 2) New Notion pages -> Apple.
+    # 2) New Notion pages -> Apple. (notion_items is already window-filtered.)
     for i in notion_items:
         if i["page_id"] in linked_pages:
             continue
