@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-07-25T17:29:43.418377+00:00",
+  "last_run": "2026-07-25T18:03:29.903728+00:00",
   "links": [
     {
       "event_canon": "Cancel Lifetime (4pm)|2026-07-24T17:30:00+00:00|2026-07-24T18:30:00+00:00|T",
@@ -947,44 +947,44 @@
       "title": "Solomon did you attach the bottom based serial pic in the claim"
     },
     {
-      "event_canon": "Walk 2 miles|2026-07-26T00:00:00+00:00|2026-07-26T01:00:00+00:00|T",
+      "event_canon": "Walk 2 miles|2026-07-25T23:00:00+00:00|2026-07-26T00:00:00+00:00|T",
       "event_uid": "79c849c2-5363-4530-8932-ed38b5d98e79@notion-apple-cal-sync",
-      "notion_canon": "Walk 2 miles|2026-07-26T00:00:00+00:00|2026-07-26T01:00:00+00:00|T",
+      "notion_canon": "Walk 2 miles|2026-07-25T23:00:00+00:00|2026-07-26T00:00:00+00:00|T",
       "notion_id": "3a8357e3-2952-811d-90e5-e4e11257efa3",
       "title": "Walk 2 miles"
     },
     {
-      "event_canon": "Laundry|2026-07-25T23:00:00+00:00|2026-07-26T00:00:00+00:00|T",
+      "event_canon": "Laundry|2026-07-25T22:00:00+00:00|2026-07-25T23:00:00+00:00|T",
       "event_uid": "a3df367f-2627-45b0-909b-f3afe3c7c554@notion-apple-cal-sync",
-      "notion_canon": "Laundry|2026-07-25T23:00:00+00:00|2026-07-26T00:00:00+00:00|T",
+      "notion_canon": "Laundry|2026-07-25T22:00:00+00:00|2026-07-25T23:00:00+00:00|T",
       "notion_id": "3a8357e3-2952-8138-a9ee-e2590e4a8c2f",
       "title": "Laundry"
     },
     {
-      "event_canon": "Order groceries|2026-07-26T01:00:00+00:00|2026-07-26T02:00:00+00:00|T",
+      "event_canon": "Order groceries|2026-07-26T00:00:00+00:00|2026-07-26T01:00:00+00:00|T",
       "event_uid": "f05bbd23-f29c-4573-bee3-70c823bf95d3@notion-apple-cal-sync",
-      "notion_canon": "Order groceries|2026-07-26T01:00:00+00:00|2026-07-26T02:00:00+00:00|T",
+      "notion_canon": "Order groceries|2026-07-26T00:00:00+00:00|2026-07-26T01:00:00+00:00|T",
       "notion_id": "3a8357e3-2952-8142-9319-eb5fc44f17ef",
       "title": "Order groceries"
     },
     {
-      "event_canon": "Scan receipts|2026-07-25T22:00:00+00:00|2026-07-25T23:00:00+00:00|T",
+      "event_canon": "Scan receipts|2026-07-25T21:00:00+00:00|2026-07-25T22:00:00+00:00|T",
       "event_uid": "b7ae8410-1df7-4df1-9293-098055f2144a@notion-apple-cal-sync",
-      "notion_canon": "Scan receipts|2026-07-25T22:00:00+00:00|2026-07-25T23:00:00+00:00|T",
+      "notion_canon": "Scan receipts|2026-07-25T21:00:00+00:00|2026-07-25T22:00:00+00:00|T",
       "notion_id": "3a8357e3-2952-8190-8fc3-f98a78171556",
       "title": "Scan receipts"
     },
     {
-      "event_canon": "Pay Tayne Law (due today)|2026-07-25T20:00:00+00:00|2026-07-25T21:00:00+00:00|T",
+      "event_canon": "Pay Tayne Law (due today)|2026-07-25T19:00:00+00:00|2026-07-25T20:00:00+00:00|T",
       "event_uid": "9876e0a9-ff12-4149-9040-e1d61d3651ea@notion-apple-cal-sync",
-      "notion_canon": "Pay Tayne Law (due today)|2026-07-25T20:00:00+00:00|2026-07-25T21:00:00+00:00|T",
+      "notion_canon": "Pay Tayne Law (due today)|2026-07-25T19:00:00+00:00|2026-07-25T20:00:00+00:00|T",
       "notion_id": "3a8357e3-2952-81b9-9a82-d2f13423ece7",
       "title": "Pay Tayne Law (due today)"
     },
     {
-      "event_canon": "Research Claude Cowork|2026-07-25T21:00:00+00:00|2026-07-25T22:00:00+00:00|T",
+      "event_canon": "Research Claude Cowork|2026-07-25T20:00:00+00:00|2026-07-25T21:00:00+00:00|T",
       "event_uid": "60a961c3-ebf2-49ac-882f-793f3e9bcbff@notion-apple-cal-sync",
-      "notion_canon": "Research Claude Cowork|2026-07-25T21:00:00+00:00|2026-07-25T22:00:00+00:00|T",
+      "notion_canon": "Research Claude Cowork|2026-07-25T20:00:00+00:00|2026-07-25T21:00:00+00:00|T",
       "notion_id": "3a8357e3-2952-81e4-91f6-d200ce6afeaf",
       "title": "Research Claude Cowork"
     }
