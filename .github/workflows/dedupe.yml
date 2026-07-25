@@ -1,0 +1,46 @@
+name: Clean Up Duplicate Calendar Events
+
+# Manual only. This never runs on a schedule and never runs on a push.
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "report = just show me / delete = actually remove the copies"
+        required: true
+        default: report
+        type: choice
+        options:
+          - report
+          - delete
+
+permissions:
+  contents: read
+
+concurrency:
+  group: cal-sync          # never overlap with a running sync
+  cancel-in-progress: false
+
+jobs:
+  dedupe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: De-duplicate
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          APPLE_ID: ${{ secrets.APPLE_ID }}
+          APPLE_APP_PASSWORD: ${{ secrets.APPLE_APP_PASSWORD }}
+          APPLE_CALENDAR_NAME: ${{ vars.APPLE_CALENDAR_NAME }}
+          APPLE_TZ: ${{ vars.APPLE_TZ }}
+          CONFIRM: ${{ inputs.mode }}
+        run: python dedupe_apple.py
