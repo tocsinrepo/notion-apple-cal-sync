@@ -5,9 +5,9 @@ Background
 Until commit 82fe4cb the Notion side read every dated page while the Apple side
 read only a +/- window. Any Notion task dated outside that window looked, to
 every run, like an Apple event that had been deleted — so the sync recreated it.
-One fresh copy per run, forever. Jon's "Work" calendar ended up with 28 copies
-each of the four HOA arrears tasks due in 2027, plus a dozen copies each of five
-retired June tasks.
+One fresh copy per run, forever. Jon's "Work" calendar ended up with 16 copies
+each of the four HOA arrears tasks due in 2027 (plus another 13 each at a second
+date), and a dozen copies each of five retired June tasks.
 
 What this does
 --------------
@@ -19,6 +19,9 @@ lexicographically first UID, so repeat runs are deterministic.
 Safety
 ------
   * A group with one member is never touched. This cannot delete a unique event.
+  * A group with TWO OR MORE tracked copies is never touched either — that means
+    Jon really does have two Notion pages with the same title and date, each
+    correctly linked. Deleting one would only make the next sync recreate it.
   * Events NOT created by this sync (no matching UID suffix) are never touched.
   * Reports only, unless CONFIRM=delete is set.
   * Nothing here writes to Notion or to sync_state.json.
@@ -111,16 +114,25 @@ def main():
 
     dupes = {fp: g for fp, g in groups.items() if len(g) > 1}
     doomed = []
+    protected = 0
     for fp, members in sorted(dupes.items(), key=lambda kv: -len(kv[1])):
         members.sort(key=lambda m: m[0])
-        survivor = next((m for m in members if m[0] in keepers), members[0])
+        tracked = [m for m in members if m[0] in keepers]
+        if len(tracked) > 1:
+            # Genuinely two Notion pages with the same title and date, each
+            # correctly linked. Not our mess to clean.
+            protected += 1
+            log(f"  {len(members):3d}x  {fp[0][:58]!r}  {fp[1][:16]}  "
+                f"-> SKIP, {len(tracked)} tracked copies (duplicated in Notion)")
+            continue
+        survivor = tracked[0] if tracked else members[0]
         losers = [m for m in members if m[0] != survivor[0]]
         doomed.extend(losers)
         log(f"  {len(members):3d}x  {fp[0][:58]!r}  {fp[1][:16]}  "
             f"-> keep {survivor[0][:8]}, drop {len(losers)}")
 
     log(f"groups: {len(groups)}   duplicated groups: {len(dupes)}   "
-        f"copies to remove: {len(doomed)}")
+        f"protected: {protected}   copies to remove: {len(doomed)}")
     if not doomed:
         log("nothing to do — calendar is clean.")
         return
