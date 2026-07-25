@@ -1,14 +1,16 @@
 name: Notion <-> Apple Calendar Sync
 
+# PARKED 2026-07-25. The live engine is now on Jon's Mac:
+#   ~/Applications/CalendarSync  (launchd, every 10 minutes)
+# Running both would mean two engines writing to one calendar from two separate
+# sync_state.json files — each would keep "recreating" what the other made.
+# Manual dispatch is kept as a break-glass path only.
 on:
-  # Re-enabled 2026-07-23 (rewrite-loop fix verified live on 2026-07-21).
-  schedule:
-    - cron: "*/20 * * * *"   # every 20 minutes (GitHub throttles this heavily)
-  # Any push to main forces an immediate run. The bot's own state commits use
-  # "[skip ci]", so this cannot feed itself.
+  # schedule:
+  #   - cron: "*/20 * * * *"   # parked — the Mac owns this now
   push:
     branches: [main]
-  workflow_dispatch:          # lets you run it manually from the Actions tab
+  workflow_dispatch:
 
 permissions:
   contents: write             # needed to commit the updated sync_state.json
